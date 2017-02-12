@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+  <name>plugin.folders</name>
+  <value>/Users/zhangmingke/Documents/workspace/xnutch/build/plugins</value>
+</property>
+
+<property>
+  <name>plugin.includes</name>
+  <value>protocol-http|urlfilter-(regex|domain|validator)|parse-(html|tika)|language-identifier|index-(basic|anchor|more)|indexer-lucene|analysis-(zhcn|zhtw)|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
+  <description>Regular expression naming plugin directory names to
+  include.  Any plugin not matching this expression is excluded.
+  In any case you need at least include the nutch-extensionpoints plugin. By
+  default Nutch includes crawling just HTML and plain text via HTTP,
+  and basic indexing and search plugins. In order to use HTTPS please enable 
+  protocol-httpclient, but be aware of possible intermittent problems with the 
+  underlying commons-httpclient library. Set parsefilter-naivebayes for classification based focused crawler.
+  </description>
+</property>
+
+<property>
+  <name>generate.max.count</name>
+  <value>3</value>
+  <description>The maximum number of urls in a single
+  fetchlist.  -1 if unlimited. The urls are counted according
+  to the value of the parameter generator.count.mode.
+  </description>
+</property>
+
+<property>
+  <name>http.agent.name</name>
+  <value>kbot</value>
+  <description>HTTP 'User-Agent' request header. MUST NOT be empty -
+      please set this to a single word uniquely related to your
+      organization.
+
+      NOTE: You should also check other related properties:
+
+      http.robots.agents
+      http.agent.description
+      http.agent.url
+      http.agent.email
+      http.agent.version
+
+      and set their values appropriately.
+
+  </description>
+</property>
+
+<property>
+  <name>http.content.limit</name>
+  <value>1000000</value>
+  <description>The length limit for downloaded content using the http://
+  protocol, in bytes. If this value is nonnegative (>=0), content longer
+  than it will be truncated; otherwise, no truncation at all. Do not
+  confuse this setting with the file.content.limit setting.
+  </description>
+</property>
+
+<property>
+  <name>http.timeout</name>
+  <value>10000</value>
+  <description>The default network timeout, in milliseconds.</description>
+</property>
+
+<property>
+  <name>db.max.outlinks.per.page</name>
+  <value>1000</value>
+  <description>The maximum number of outlinks that we'll process for a page.
+  If this value is nonnegative (>=0), at most db.max.outlinks.per.page outlinks
+  will be processed for a page; otherwise, all outlinks will be processed.
+  </description>
+</property>
+
+<property>
+    <name>dns.servers</name>
+    <value>114.114.114.114,8.8.8.8,208.67.220.220,211.161.159.66,198.153.192.1,1.2.4.8,210.2.1.1,210.2.2.2,208.67.222.123,208.67.220.123,123.125.81.6,140.207.198.6,114.114.115.115,8.8.4.4,208.67.222.222,211.161.158.10,198.153.194.1,210.2.4.8</value>
+  </property>
+  
+  <property>
+    <name>solr.server.url</name>
+    <value>http://localhost:8983/solr/collection1</value>
+  </property>
+  
+  <property>
+  <name>searcher.dir</name>
+  <value>/Users/zhangmingke/Documents/workspace/xnutch/pdfTmp</value>
+</property>
+
+  <property>
+    <name>index.lucene.dir</name>
+    <value>Tmp/indexs</value>
+  </property>
+</configuration>

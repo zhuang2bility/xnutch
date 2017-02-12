@@ -1,0 +1,1512 @@
+2016-08-15 15:14:39,395 INFO  crawl.Injector - Injector: starting at 2016-08-15 15:14:39
+2016-08-15 15:14:39,396 INFO  crawl.Injector - Injector: crawlDb: pdfTmp/crawldb
+2016-08-15 15:14:39,397 INFO  crawl.Injector - Injector: urlDir: pdfTmp/urls
+2016-08-15 15:14:39,398 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-08-15 15:14:39,820 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-15 15:14:40,472 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 15:14:40,848 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1893735285/.staging/job_local1893735285_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 15:14:40,856 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1893735285/.staging/job_local1893735285_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 15:14:41,081 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1893735285_0001/job_local1893735285_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 15:14:41,085 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1893735285_0001/job_local1893735285_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 15:14:41,534 INFO  domain.DomainURLFilter - Attribute "file" is defined for plugin urlfilter-domain as domain-urlfilter.txt
+2016-08-15 15:14:41,540 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-08-15 15:14:41,804 INFO  crawl.Injector - Injector: overwrite: false
+2016-08-15 15:14:41,804 INFO  crawl.Injector - Injector: update: false
+2016-08-15 15:14:42,141 INFO  crawl.Injector - Injector: Total number of urls rejected by filters: 41
+2016-08-15 15:14:42,141 INFO  crawl.Injector - Injector: Total number of urls after normalization: 78
+2016-08-15 15:14:42,146 INFO  crawl.Injector - Injector: Total new urls injected: 78
+2016-08-15 15:14:42,146 INFO  crawl.Injector - Injector: finished at 2016-08-15 15:14:42, elapsed: 00:00:02
+2016-08-15 22:19:22,950 INFO  crawl.Injector - Injector: starting at 2016-08-15 22:19:22
+2016-08-15 22:19:22,951 INFO  crawl.Injector - Injector: crawlDb: pdfTmp/crawldb
+2016-08-15 22:19:22,952 INFO  crawl.Injector - Injector: urlDir: pdfTmp/urls
+2016-08-15 22:19:22,960 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-08-15 22:19:23,327 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-15 22:19:24,148 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:19:24,469 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1874156089/.staging/job_local1874156089_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:24,474 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1874156089/.staging/job_local1874156089_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:24,622 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1874156089_0001/job_local1874156089_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:24,626 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1874156089_0001/job_local1874156089_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:25,133 INFO  domain.DomainURLFilter - Attribute "file" is defined for plugin urlfilter-domain as domain-urlfilter.txt
+2016-08-15 22:19:25,139 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-08-15 22:19:25,447 INFO  crawl.Injector - Injector: overwrite: false
+2016-08-15 22:19:25,447 INFO  crawl.Injector - Injector: update: false
+2016-08-15 22:19:25,684 INFO  crawl.Injector - Injector: Total number of urls rejected by filters: 15
+2016-08-15 22:19:25,685 INFO  crawl.Injector - Injector: Total number of urls after normalization: 30
+2016-08-15 22:19:25,693 INFO  crawl.Injector - Injector: Total new urls injected: 30
+2016-08-15 22:19:25,695 INFO  crawl.Injector - Injector: finished at 2016-08-15 22:19:25, elapsed: 00:00:02
+2016-08-15 22:19:41,054 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-15 22:19:41,218 INFO  crawl.CrawlAndIndex - crawl started in: pdfTmp
+2016-08-15 22:19:41,218 INFO  crawl.CrawlAndIndex - threads = 10
+2016-08-15 22:19:41,218 INFO  crawl.CrawlAndIndex - depth = 3
+2016-08-15 22:19:41,218 INFO  crawl.CrawlAndIndex - topN = 9223372036854775807
+2016-08-15 22:19:41,221 INFO  crawl.CrawlAndIndex - topN = 9223372036854775807
+2016-08-15 22:19:41,221 INFO  crawl.CrawlAndIndex - noindex = false
+2016-08-15 22:19:41,221 INFO  crawl.CrawlAndIndex - hostInjector == true
+2016-08-15 22:19:41,235 INFO  crawl.HostInjector - HostInjector: starting at 2016-08-15 22:19:41
+2016-08-15 22:19:41,235 INFO  crawl.HostInjector - HostInjector: crawlDb: pdfTmp/crawldb
+2016-08-15 22:19:41,235 INFO  crawl.HostInjector - HostInjector: hostDb: pdfTmp/hostdb
+2016-08-15 22:19:41,294 INFO  crawl.HostInjector - HostInjector: Converting urls to host entries.
+2016-08-15 22:19:41,813 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:19:42,523 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1601016593/.staging/job_local1601016593_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:42,534 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1601016593/.staging/job_local1601016593_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:42,732 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1601016593_0001/job_local1601016593_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:42,735 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1601016593_0001/job_local1601016593_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:43,219 INFO  domain.DomainURLFilter - Attribute "file" is defined for plugin urlfilter-domain as domain-urlfilter.txt
+2016-08-15 22:19:43,233 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-08-15 22:19:43,776 INFO  crawl.HostInjector - Injector: Total number of urls rejected by filters: 0
+2016-08-15 22:19:43,776 INFO  crawl.HostInjector - Injector: Total number of urls scanned: 30
+2016-08-15 22:19:43,779 INFO  crawl.HostInjector - HostInjector: finished at 2016-08-15 22:19:43, elapsed: 00:00:02
+2016-08-15 22:19:44,783 INFO  crawl.HostGenerator - HostGenerator: segment: pdfTmp/hostSegments/20160815221944
+2016-08-15 22:19:44,800 INFO  crawl.HostGenerator - HostGenerator: starting at 2016-08-15 22:19:44
+2016-08-15 22:19:44,800 INFO  crawl.HostGenerator - HostGenerator: Selecting best-scoring hosts due for resolve.
+2016-08-15 22:19:44,802 INFO  crawl.HostGenerator - HostGenerator: jobtracker is 'local', generating exactly one partition.
+2016-08-15 22:19:44,827 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:19:44,987 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1535844434/.staging/job_local1535844434_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:44,989 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1535844434/.staging/job_local1535844434_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:45,100 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1535844434_0002/job_local1535844434_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:45,101 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1535844434_0002/job_local1535844434_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:45,231 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:19:45,234 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:19:45,234 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:19:45,266 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:19:45,266 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:19:45,266 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:19:46,125 INFO  crawl.HostGenerator - HostGenerator: finished at 2016-08-15 22:19:46, elapsed: 00:00:01
+2016-08-15 22:19:46,125 INFO  crawl.HostFetcher - HostFetcher: starting at 2016-08-15 22:19:46
+2016-08-15 22:19:46,125 INFO  crawl.HostFetcher - HostFetcher: segment: pdfTmp/hostSegments/20160815221944
+2016-08-15 22:19:46,154 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:19:46,231 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1935566046/.staging/job_local1935566046_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:46,232 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1935566046/.staging/job_local1935566046_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:46,343 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1935566046_0003/job_local1935566046_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:19:46,359 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1935566046_0003/job_local1935566046_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:19:46,676 INFO  crawl.HostFetcher - Fetcher: time-out divisor: 2
+2016-08-15 22:19:46,700 INFO  crawl.HostFetcher - Resolving zzwb.zynews.com with dns server 114.114.114.114
+2016-08-15 22:19:46,726 INFO  crawl.HostFetcher - Resolving www.yznews.com.cn with dns server 208.67.222.123
+2016-08-15 22:19:46,726 INFO  crawl.HostFetcher - Resolving www.worlduc.com with dns server 123.125.81.6
+2016-08-15 22:19:46,727 INFO  crawl.HostFetcher - Resolving www.qingdaonews.com with dns server 208.67.220.123
+2016-08-15 22:19:46,727 INFO  crawl.HostFetcher - Resolving www.offshoretestingservices.com with dns server 140.207.198.6
+2016-08-15 22:19:46,727 INFO  crawl.HostFetcher - Resolving www.nbcg.gov.cn with dns server 114.114.115.115
+2016-08-15 22:19:46,727 INFO  crawl.HostFetcher - Resolving www.moe.edu.cn with dns server 8.8.4.4
+2016-08-15 22:19:46,727 INFO  crawl.HostFetcher - Resolving www.isme.tw with dns server 208.67.222.222
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.guokr.com with dns server 211.161.158.10
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.guinnessworldrecords.com with dns server 198.153.194.1
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.globaltimes.cn with dns server 210.2.2.2
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.ettoday.net with dns server 1.2.4.8
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.ctbcbank.com with dns server 210.2.1.1
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.cnzjmsa.gov.cn with dns server 198.153.192.1
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.cninfo.com.cn with dns server 211.161.159.66
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.citytalk.tw with dns server 8.8.8.8
+2016-08-15 22:19:46,728 INFO  crawl.HostFetcher - Resolving www.chinatimes.com with dns server 208.67.220.220
+2016-08-15 22:19:46,730 INFO  crawl.HostFetcher - Resolving www.chinadaily.com.cn with dns server 210.2.4.8
+2016-08-15 22:19:48,472 INFO  crawl.HostFetcher - Resolving www.aol.com with dns server 8.8.8.8
+2016-08-15 22:19:48,472 INFO  crawl.HostFetcher - Resolving www.adobe.com with dns server 123.125.81.6
+2016-08-15 22:19:48,472 INFO  crawl.HostFetcher - Resolving news.sina.com.cn with dns server 8.8.4.4
+2016-08-15 22:19:48,473 INFO  crawl.HostFetcher - Resolving my.gl.fudan.edu.cn with dns server 114.114.114.114
+2016-08-15 22:19:48,474 INFO  crawl.HostFetcher - Resolving movie.douban.com with dns server 114.114.115.115
+2016-08-15 22:19:48,474 INFO  crawl.HostFetcher - Resolving mail.gzvtc.cn with dns server 210.2.4.8
+2016-08-15 22:19:52,073 INFO  crawl.HostFetcher - Resolving jwc.zjsru.edu.cn with dns server 208.67.220.220
+2016-08-15 22:19:52,076 INFO  crawl.HostFetcher - Resolving images.ruc.edu.cn with dns server 198.153.192.1
+2016-08-15 22:19:52,076 INFO  crawl.HostFetcher - Resolving icook.tw with dns server 208.67.222.123
+2016-08-15 22:19:52,081 INFO  crawl.HostFetcher - Resolving file.mw1950.com with dns server 208.67.220.123
+2016-08-15 22:19:52,081 INFO  crawl.HostFetcher - Resolving ent.163.com with dns server 198.153.194.1
+2016-08-15 22:19:52,081 INFO  crawl.HostFetcher - Resolving doc.askci.com with dns server 208.67.222.222
+2016-08-15 22:19:52,084 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,084 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=17
+2016-08-15 22:19:52,086 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,086 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=16
+2016-08-15 22:19:52,089 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,089 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=15
+2016-08-15 22:19:52,092 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,092 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=14
+2016-08-15 22:19:52,109 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,109 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,109 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=12
+2016-08-15 22:19:52,109 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,110 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=11
+2016-08-15 22:19:52,109 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=13
+2016-08-15 22:19:52,400 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,402 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=10
+2016-08-15 22:19:52,467 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,467 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=9
+2016-08-15 22:19:52,471 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,472 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=8
+2016-08-15 22:19:52,611 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:52,612 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=7
+2016-08-15 22:19:53,499 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:53,499 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=6
+2016-08-15 22:19:58,634 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:19:58,634 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=5
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - fetch of www.cninfo.com.cn failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - fetch of www.offshoretestingservices.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - fetch of www.guokr.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=3
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:20:16,809 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=2
+2016-08-15 22:20:16,809 INFO  crawl.HostFetcher - fetch of www.globaltimes.cn failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:20:16,809 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:20:16,809 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=1
+2016-08-15 22:20:16,808 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=3
+2016-08-15 22:20:16,819 INFO  crawl.HostFetcher - fetch of www.ctbcbank.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:20:16,819 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:20:16,819 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=0
+2016-08-15 22:20:17,818 INFO  crawl.HostFetcher - -activeThreads=0
+2016-08-15 22:20:18,503 INFO  crawl.HostFetcher - HostFetcher: finished at 2016-08-15 22:20:18, elapsed: 00:00:32
+2016-08-15 22:20:18,511 INFO  crawl.HostDb - HostDb update: starting at 2016-08-15 22:20:18
+2016-08-15 22:20:18,511 INFO  crawl.HostDb - HostDb update: db: pdfTmp/hostdb
+2016-08-15 22:20:18,511 INFO  crawl.HostDb - HostDb update: segments: [pdfTmp/hostSegments/20160815221944]
+2016-08-15 22:20:18,512 INFO  crawl.HostDb - HostDb update: additions allowed: true
+2016-08-15 22:20:18,512 INFO  crawl.HostDb - HostDb update: 404 purging: false
+2016-08-15 22:20:18,512 INFO  crawl.HostDb - HostDb update: Merging segment data into db.
+2016-08-15 22:20:18,522 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:20:18,591 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke967085902/.staging/job_local967085902_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:18,591 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke967085902/.staging/job_local967085902_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:18,667 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local967085902_0004/job_local967085902_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:18,669 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local967085902_0004/job_local967085902_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:18,928 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:20:18,929 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:20:18,929 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:20:18,954 WARN  crawl.CrawlDbReducer - Unknown status, key: doc.askci.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,963 WARN  crawl.CrawlDbReducer - Unknown status, key: ent.163.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,963 WARN  crawl.CrawlDbReducer - Unknown status, key: file.mw1950.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,964 WARN  crawl.CrawlDbReducer - Unknown status, key: icook.tw, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,964 WARN  crawl.CrawlDbReducer - Unknown status, key: images.ruc.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,964 WARN  crawl.CrawlDbReducer - Unknown status, key: jwc.zjsru.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,965 WARN  crawl.CrawlDbReducer - Unknown status, key: mail.gzvtc.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,965 WARN  crawl.CrawlDbReducer - Unknown status, key: movie.douban.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,966 WARN  crawl.CrawlDbReducer - Unknown status, key: my.gl.fudan.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,967 WARN  crawl.CrawlDbReducer - Unknown status, key: news.sina.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,968 WARN  crawl.CrawlDbReducer - Unknown status, key: www.adobe.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,968 WARN  crawl.CrawlDbReducer - Unknown status, key: www.aol.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,968 WARN  crawl.CrawlDbReducer - Unknown status, key: www.chinadaily.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,969 WARN  crawl.CrawlDbReducer - Unknown status, key: www.chinatimes.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,969 WARN  crawl.CrawlDbReducer - Unknown status, key: www.citytalk.tw, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,970 WARN  crawl.CrawlDbReducer - Unknown status, key: www.cninfo.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,970 WARN  crawl.CrawlDbReducer - Unknown status, key: www.cnzjmsa.gov.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,971 WARN  crawl.CrawlDbReducer - Unknown status, key: www.ctbcbank.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,971 WARN  crawl.CrawlDbReducer - Unknown status, key: www.ettoday.net, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,972 WARN  crawl.CrawlDbReducer - Unknown status, key: www.globaltimes.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,972 WARN  crawl.CrawlDbReducer - Unknown status, key: www.guinnessworldrecords.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,973 WARN  crawl.CrawlDbReducer - Unknown status, key: www.guokr.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,973 WARN  crawl.CrawlDbReducer - Unknown status, key: www.isme.tw, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,974 WARN  crawl.CrawlDbReducer - Unknown status, key: www.moe.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,975 WARN  crawl.CrawlDbReducer - Unknown status, key: www.nbcg.gov.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,975 WARN  crawl.CrawlDbReducer - Unknown status, key: www.offshoretestingservices.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,976 WARN  crawl.CrawlDbReducer - Unknown status, key: www.qingdaonews.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,976 WARN  crawl.CrawlDbReducer - Unknown status, key: www.worlduc.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,977 WARN  crawl.CrawlDbReducer - Unknown status, key: www.yznews.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:18,978 WARN  crawl.CrawlDbReducer - Unknown status, key: zzwb.zynews.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Mon Aug 15 22:19:41 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-15 22:20:19,684 INFO  crawl.HostDb - HostDb update: finished at 2016-08-15 22:20:19, elapsed: 00:00:01
+2016-08-15 22:20:19,697 INFO  crawl.NewGenerator - Generator: starting at 2016-08-15 22:20:19
+2016-08-15 22:20:19,697 INFO  crawl.NewGenerator - Generator: Preselecting urls due for fetch.
+2016-08-15 22:20:19,698 INFO  crawl.NewGenerator - Generator: filtering: true
+2016-08-15 22:20:19,698 INFO  crawl.NewGenerator - Generator: normalizing: true
+2016-08-15 22:20:19,722 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:20:19,839 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1567494347/.staging/job_local1567494347_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:19,840 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1567494347/.staging/job_local1567494347_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:19,935 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1567494347_0005/job_local1567494347_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:19,936 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1567494347_0005/job_local1567494347_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:20,056 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:20:20,056 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:20:20,056 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:20:20,944 INFO  crawl.NewGenerator - Generator: Retrieving IP from hostdb.
+2016-08-15 22:20:20,972 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:20:21,110 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1211892865/.staging/job_local1211892865_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:21,112 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1211892865/.staging/job_local1211892865_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:21,214 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1211892865_0006/job_local1211892865_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:21,215 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1211892865_0006/job_local1211892865_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:22,220 INFO  crawl.NewGenerator - Generator: Selecting best urls due for fetch.
+2016-08-15 22:20:22,221 INFO  crawl.NewGenerator - Generator: jobtracker is 'local', generating exactly one partition.
+2016-08-15 22:20:22,236 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:20:22,294 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1672098001/.staging/job_local1672098001_0007/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:22,295 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1672098001/.staging/job_local1672098001_0007/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:22,353 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1672098001_0007/job_local1672098001_0007.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:22,354 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1672098001_0007/job_local1672098001_0007.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:22,385 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:20:22,385 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:20:22,385 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:20:22,403 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:20:22,403 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:20:22,403 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:20:22,404 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-08-15 22:20:23,362 INFO  crawl.NewGenerator - Generator: Partitioning selected urls for politeness.
+2016-08-15 22:20:24,366 INFO  crawl.NewGenerator - Generator: segment: pdfTmp/segments/20160815222024
+2016-08-15 22:20:24,406 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:20:24,538 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke533340045/.staging/job_local533340045_0008/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:24,540 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke533340045/.staging/job_local533340045_0008/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:24,650 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local533340045_0008/job_local533340045_0008.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:24,652 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local533340045_0008/job_local533340045_0008.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:25,659 INFO  crawl.NewGenerator - Generator: finished at 2016-08-15 22:20:25, elapsed: 00:00:05
+2016-08-15 22:20:25,659 INFO  fetcher.Fetcher - Fetcher: starting at 2016-08-15 22:20:25
+2016-08-15 22:20:25,659 INFO  fetcher.Fetcher - Fetcher: segment: pdfTmp/segments/20160815222024
+2016-08-15 22:20:25,674 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:20:25,783 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke706632175/.staging/job_local706632175_0009/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:25,785 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke706632175/.staging/job_local706632175_0009/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:25,864 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local706632175_0009/job_local706632175_0009.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:25,864 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local706632175_0009/job_local706632175_0009.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:25,902 INFO  fetcher.FetchItemQueues - Using queue mode : byHost
+2016-08-15 22:20:25,903 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2016-08-15 22:20:25,903 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2016-08-15 22:20:25,908 INFO  fetcher.QueueFeeder - QueueFeeder finished: total 25 records + hit by time limit :0
+2016-08-15 22:20:25,926 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,928 INFO  fetcher.FetcherThread - fetching http://www.qingdaonews.com/images/site1/20060406/020403060845126132612.doc (queue crawl delay=5000ms)
+2016-08-15 22:20:25,928 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,930 INFO  fetcher.FetcherThread - fetching http://www.moe.edu.cn/ewebeditor/uploadfile/20101019095844154.doc (queue crawl delay=5000ms)
+2016-08-15 22:20:25,930 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,931 INFO  fetcher.FetcherThread - fetching http://doc.askci.com/2014/04/089240293728.doc (queue crawl delay=5000ms)
+2016-08-15 22:20:25,931 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,932 INFO  fetcher.FetcherThread - fetching http://news.sina.com.cn/o/2016-06-30/doc-ifxtrwtu9491713.shtml (queue crawl delay=5000ms)
+2016-08-15 22:20:25,933 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,933 INFO  fetcher.FetcherThread - fetching http://www.aol.com/article/2016/06/29/reporter-to-mexican-president-how-worried-are-you-that-this-ti/21421616/ (queue crawl delay=5000ms)
+2016-08-15 22:20:25,943 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:20:25,944 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:20:25,944 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:20:25,944 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:20:25,944 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:20:25,944 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:20:25,944 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:20:25,944 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:20:25,944 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:20:25,945 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:20:25,945 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:20:25,945 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:20:25,945 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:20:25,945 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:20:25,945 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:20:25,945 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:20:25,945 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:20:25,945 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:20:25,946 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:20:25,946 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:20:25,946 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:20:25,946 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:20:25,946 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:20:25,946 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:20:25,946 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:20:25,946 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:20:25,946 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:20:25,946 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:20:25,946 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:20:25,946 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:20:25,946 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:20:25,946 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:20:25,946 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:20:25,946 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:20:25,946 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:20:25,946 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:20:25,946 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:20:25,934 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,947 INFO  fetcher.FetcherThread - fetching http://www.isme.tw/ (queue crawl delay=5000ms)
+2016-08-15 22:20:25,947 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,948 INFO  fetcher.FetcherThread - fetching http://jwc.zjsru.edu.cn/public/upload/fck/a62d1b641c9bbd2efbc8bad6f5bf5409.xls (queue crawl delay=5000ms)
+2016-08-15 22:20:25,948 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,949 INFO  fetcher.FetcherThread - fetching http://www.adobe.com/tw/ (queue crawl delay=5000ms)
+2016-08-15 22:20:25,949 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,950 INFO  fetcher.FetcherThread - fetching http://mail.gzvtc.cn/gwjp/JXZY_UpFiles/20111031103349671801926533.ppt (queue crawl delay=5000ms)
+2016-08-15 22:20:25,950 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:20:25,951 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
+2016-08-15 22:20:25,951 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2016-08-15 22:20:25,951 INFO  fetcher.FetcherThread - fetching http://file.mw1950.com/uploadfile/2012/0522/20120522105941706.pdf (queue crawl delay=5000ms)
+2016-08-15 22:20:26,963 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=15, fetchQueues.getQueueCount=25
+2016-08-15 22:20:27,095 WARN  robots.SimpleRobotRulesParser - Problem processing robots.txt for http://www.adobe.com/tw/
+2016-08-15 22:20:27,095 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /cn/products/creativesuite*
+2016-08-15 22:20:27,096 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /hr/products/creativesuite*
+2016-08-15 22:20:27,096 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /hu/products/creativesuite*
+2016-08-15 22:20:27,096 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /il_en/products/creativesuite*
+2016-08-15 22:20:27,966 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=15, fetchQueues.getQueueCount=25
+2016-08-15 22:20:28,415 INFO  fetcher.FetcherThread - fetching http://zzwb.zynews.com/page/2/2014-11/17/A16/20141117A16_pdf.PDF (queue crawl delay=5000ms)
+2016-08-15 22:20:28,930 INFO  fetcher.FetcherThread - fetching http://www.nbcg.gov.cn/office/nbcei_editor/uploadfile/08-10-27-10-33-431225074823.xls (queue crawl delay=5000ms)
+2016-08-15 22:20:28,933 INFO  fetcher.FetcherThread - fetching http://images.ruc.edu.cn/other/2009-05-19/1242719307864.xls (queue crawl delay=5000ms)
+2016-08-15 22:20:28,933 INFO  fetcher.FetcherThread - fetching http://www.guinnessworldrecords.com/news/2016/6/japanese-baseball-star-ichiro-suzuki-sets-base-hit-world-record-433462 (queue crawl delay=5000ms)
+2016-08-15 22:20:28,942 INFO  fetcher.FetcherThread - fetching http://www.chinadaily.com.cn/culture/2016-06/30/content_25912025.htm (queue crawl delay=5000ms)
+2016-08-15 22:20:28,948 INFO  fetcher.FetcherThread - fetching http://www.yznews.com.cn/yzwb/page/2014-09/12/C02/20140912C02_pdf.pdf (queue crawl delay=5000ms)
+2016-08-15 22:20:28,967 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=9, fetchQueues.getQueueCount=19
+2016-08-15 22:20:29,275 INFO  fetcher.FetcherThread - fetch of http://www.nbcg.gov.cn/office/nbcei_editor/uploadfile/08-10-27-10-33-431225074823.xls failed with: Http code=503, url=http://www.nbcg.gov.cn/office/nbcei_editor/uploadfile/08-10-27-10-33-431225074823.xls
+2016-08-15 22:20:29,275 INFO  fetcher.FetcherThread - fetching https://icook.tw/ (queue crawl delay=5000ms)
+2016-08-15 22:20:29,275 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:20:29,275 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:20:29,275 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:20:29,275 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:20:29,275 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:20:29,275 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:20:29,275 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:20:29,275 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:20:29,275 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:20:29,972 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=8, fetchQueues.getQueueCount=18
+2016-08-15 22:20:30,973 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=8, fetchQueues.getQueueCount=18
+2016-08-15 22:20:31,974 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=8, fetchQueues.getQueueCount=18
+2016-08-15 22:20:32,979 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=8, fetchQueues.getQueueCount=18
+2016-08-15 22:20:33,203 ERROR http.Http - Failed to get protocol output
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:154)
+	at sun.security.ssl.SSLSocketImpl.recvAlert(SSLSocketImpl.java:2023)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1125)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.nutch.protocol.http.HttpResponse.<init>(HttpResponse.java:179)
+	at org.apache.nutch.protocol.http.Http.getResponse(Http.java:70)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:261)
+	at org.apache.nutch.fetcher.FetcherThread.run(FetcherThread.java:290)
+2016-08-15 22:20:33,205 INFO  fetcher.FetcherThread - fetch of https://icook.tw/ failed with: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+2016-08-15 22:20:33,205 INFO  fetcher.FetcherThread - fetching http://www.cnzjmsa.gov.cn/hsqk/201206/201303/W020130310464124798846.doc (queue crawl delay=5000ms)
+2016-08-15 22:20:33,982 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=7, fetchQueues.getQueueCount=17
+2016-08-15 22:20:34,727 INFO  fetcher.FetcherThread - fetching http://ent.163.com/16/0630/08/BQPV1T3J00031H0O.html (queue crawl delay=5000ms)
+2016-08-15 22:20:34,986 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=6, fetchQueues.getQueueCount=16
+2016-08-15 22:20:35,089 INFO  fetcher.FetcherThread - fetching http://www.ettoday.net/news/20160629/725307.htm (queue crawl delay=5000ms)
+2016-08-15 22:20:35,185 INFO  fetcher.FetcherThread - fetching https://movie.douban.com/subject/6874741/ (queue crawl delay=5000ms)
+2016-08-15 22:20:35,988 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=4, fetchQueues.getQueueCount=14
+2016-08-15 22:20:35,989 INFO  fetcher.FetchItemQueues - * queue: http://my.gl.fudan.edu.cn
+2016-08-15 22:20:35,989 INFO  fetcher.FetchItemQueues -   maxThreads    = 1
+2016-08-15 22:20:35,989 INFO  fetcher.FetchItemQueues -   inProgress    = 0
+2016-08-15 22:20:35,989 INFO  fetcher.FetchItemQueues -   crawlDelay    = 5000
+2016-08-15 22:20:35,989 INFO  fetcher.FetchItemQueues -   minCrawlDelay = 0
+2016-08-15 22:20:35,989 INFO  fetcher.FetchItemQueues -   nextFetchTime = 1471270825908
+2016-08-15 22:20:35,989 INFO  fetcher.FetchItemQueues -   now           = 1471270835989
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   0. http://my.gl.fudan.edu.cn/teacherhome/rmj/xueshujingjin/lunwen/MP3.pdf
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues - * queue: http://www.worlduc.com
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   maxThreads    = 1
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   inProgress    = 0
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   crawlDelay    = 5000
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   minCrawlDelay = 0
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   nextFetchTime = 1471270825908
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   now           = 1471270835990
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   0. http://www.worlduc.com/FileSystem/18/2847/671212/2d49152d129d499883bbc834028d6f35.ppt
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues - * queue: http://www.citytalk.tw
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   maxThreads    = 1
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   inProgress    = 0
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   crawlDelay    = 5000
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   minCrawlDelay = 0
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   nextFetchTime = 1471270825907
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   now           = 1471270835990
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   0. http://www.citytalk.tw/
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues - * queue: http://www.chinatimes.com
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   maxThreads    = 1
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   inProgress    = 0
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   crawlDelay    = 5000
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   minCrawlDelay = 0
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   nextFetchTime = 1471270825908
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   now           = 1471270835990
+2016-08-15 22:20:35,990 INFO  fetcher.FetchItemQueues -   0. http://www.chinatimes.com/realtimenews/20160630001632-260401
+2016-08-15 22:20:36,225 INFO  fetcher.FetcherThread - fetching http://my.gl.fudan.edu.cn/teacherhome/rmj/xueshujingjin/lunwen/MP3.pdf (queue crawl delay=5000ms)
+2016-08-15 22:20:36,372 INFO  fetcher.FetcherThread - fetching http://www.worlduc.com/FileSystem/18/2847/671212/2d49152d129d499883bbc834028d6f35.ppt (queue crawl delay=5000ms)
+2016-08-15 22:20:36,991 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=2, fetchQueues.getQueueCount=12
+2016-08-15 22:20:36,991 INFO  fetcher.FetchItemQueues - * queue: http://www.citytalk.tw
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   maxThreads    = 1
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   inProgress    = 0
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   crawlDelay    = 5000
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   minCrawlDelay = 0
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   nextFetchTime = 1471270825907
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   now           = 1471270836992
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   0. http://www.citytalk.tw/
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues - * queue: http://www.chinatimes.com
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   maxThreads    = 1
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   inProgress    = 0
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   crawlDelay    = 5000
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   minCrawlDelay = 0
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   nextFetchTime = 1471270825908
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   now           = 1471270836992
+2016-08-15 22:20:36,992 INFO  fetcher.FetchItemQueues -   0. http://www.chinatimes.com/realtimenews/20160630001632-260401
+2016-08-15 22:20:37,793 INFO  fetcher.FetcherThread - fetching http://www.citytalk.tw/ (queue crawl delay=5000ms)
+2016-08-15 22:20:37,853 INFO  api.HttpRobotRulesParser - Couldn't get robots.txt for http://my.gl.fudan.edu.cn/teacherhome/rmj/xueshujingjin/lunwen/MP3.pdf: java.net.SocketException: Connection reset
+2016-08-15 22:20:37,956 ERROR http.Http - Failed to get protocol output
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.FilterInputStream.read(FilterInputStream.java:83)
+	at java.io.PushbackInputStream.read(PushbackInputStream.java:139)
+	at org.apache.nutch.protocol.http.HttpResponse.readLine(HttpResponse.java:555)
+	at org.apache.nutch.protocol.http.HttpResponse.parseStatusLine(HttpResponse.java:469)
+	at org.apache.nutch.protocol.http.HttpResponse.<init>(HttpResponse.java:263)
+	at org.apache.nutch.protocol.http.Http.getResponse(Http.java:70)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:261)
+	at org.apache.nutch.fetcher.FetcherThread.run(FetcherThread.java:290)
+2016-08-15 22:20:37,957 INFO  fetcher.FetcherThread - fetch of http://my.gl.fudan.edu.cn/teacherhome/rmj/xueshujingjin/lunwen/MP3.pdf failed with: java.net.SocketException: Connection reset
+2016-08-15 22:20:37,957 INFO  fetcher.FetcherThread - fetching http://www.chinatimes.com/realtimenews/20160630001632-260401 (queue crawl delay=5000ms)
+2016-08-15 22:20:37,995 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=10
+2016-08-15 22:20:38,998 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=10
+2016-08-15 22:20:39,739 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:39,739 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=9
+2016-08-15 22:20:39,940 ERROR http.Http - Failed to get protocol output
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.nutch.protocol.http.HttpResponse.<init>(HttpResponse.java:148)
+	at org.apache.nutch.protocol.http.Http.getResponse(Http.java:70)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:261)
+	at org.apache.nutch.fetcher.FetcherThread.run(FetcherThread.java:290)
+2016-08-15 22:20:39,940 INFO  fetcher.FetcherThread - fetch of http://www.chinadaily.com.cn/culture/2016-06/30/content_25912025.htm failed with: java.net.SocketTimeoutException: connect timed out
+2016-08-15 22:20:39,940 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:39,941 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=8
+2016-08-15 22:20:39,999 INFO  fetcher.Fetcher - -activeThreads=8, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=8
+2016-08-15 22:20:40,843 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:40,843 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=7
+2016-08-15 22:20:41,002 INFO  fetcher.Fetcher - -activeThreads=7, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=7
+2016-08-15 22:20:41,450 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:41,450 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=6
+2016-08-15 22:20:42,007 INFO  fetcher.Fetcher - -activeThreads=6, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=6
+2016-08-15 22:20:43,011 INFO  fetcher.Fetcher - -activeThreads=6, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=6
+2016-08-15 22:20:43,344 INFO  api.HttpRobotRulesParser - Couldn't get robots.txt for http://www.isme.tw/: java.net.UnknownHostException: www.isme.tw
+2016-08-15 22:20:43,680 INFO  api.HttpRobotRulesParser - Couldn't get robots.txt for http://www.cnzjmsa.gov.cn/hsqk/201206/201303/W020130310464124798846.doc: java.net.SocketTimeoutException: connect timed out
+2016-08-15 22:20:43,910 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:43,910 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=5
+2016-08-15 22:20:44,012 INFO  fetcher.Fetcher - -activeThreads=5, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=5
+2016-08-15 22:20:44,096 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:44,096 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=4
+2016-08-15 22:20:45,016 INFO  fetcher.Fetcher - -activeThreads=4, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=4
+2016-08-15 22:20:45,827 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:45,827 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=3
+2016-08-15 22:20:46,020 INFO  fetcher.Fetcher - -activeThreads=3, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=3
+2016-08-15 22:20:47,025 INFO  fetcher.Fetcher - -activeThreads=3, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=3
+2016-08-15 22:20:47,360 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:47,360 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=2
+2016-08-15 22:20:48,030 INFO  fetcher.Fetcher - -activeThreads=2, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=2
+2016-08-15 22:20:49,035 INFO  fetcher.Fetcher - -activeThreads=2, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=2
+2016-08-15 22:20:49,696 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:49,696 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2016-08-15 22:20:50,040 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-15 22:20:51,046 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-15 22:20:52,050 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-15 22:20:53,054 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-15 22:20:53,682 ERROR http.Http - Failed to get protocol output
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.nutch.protocol.http.HttpResponse.<init>(HttpResponse.java:148)
+	at org.apache.nutch.protocol.http.Http.getResponse(Http.java:70)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:261)
+	at org.apache.nutch.fetcher.FetcherThread.run(FetcherThread.java:290)
+2016-08-15 22:20:53,683 INFO  fetcher.FetcherThread - fetch of http://www.cnzjmsa.gov.cn/hsqk/201206/201303/W020130310464124798846.doc failed with: java.net.SocketTimeoutException: connect timed out
+2016-08-15 22:20:53,683 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-15 22:20:53,683 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=0
+2016-08-15 22:20:54,057 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=0
+2016-08-15 22:20:54,057 INFO  fetcher.Fetcher - -activeThreads=0
+2016-08-15 22:20:54,972 INFO  fetcher.Fetcher - Fetcher: finished at 2016-08-15 22:20:54, elapsed: 00:00:29
+2016-08-15 22:20:54,974 INFO  parse.ParseSegment - ParseSegment: starting at 2016-08-15 22:20:54
+2016-08-15 22:20:54,974 INFO  parse.ParseSegment - ParseSegment: segment: pdfTmp/segments/20160815222024
+2016-08-15 22:20:54,987 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:20:55,097 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1252020565/.staging/job_local1252020565_0010/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:55,099 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1252020565/.staging/job_local1252020565_0010/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:55,216 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1252020565_0010/job_local1252020565_0010.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:20:55,217 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1252020565_0010/job_local1252020565_0010.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:20:55,252 INFO  parse.ParserFactory - The parsing plugins: [org.apache.nutch.parse.tika.TikaParser] are enabled via the plugin.includes system property, and all claim to support the content type application/msword, but they are not mapped to it  in the parse-plugins.xml file
+2016-08-15 22:20:55,894 INFO  util.Langdetect - load again
+
+2016-08-15 22:20:57,256 INFO  util.Langdetect - load zmk
+2016-08-15 22:20:57,279 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-08-15 22:20:57,290 INFO  parse.ParseSegment - Parsed (19ms):http://doc.askci.com/2014/04/089240293728.doc
+2016-08-15 22:20:57,531 INFO  util.Langdetect - load zmk
+2016-08-15 22:20:57,534 INFO  parse.ParseSegment - Parsed (1ms):http://ent.163.com/16/0630/08/BQPV1T3J00031H0O.html
+2016-08-15 22:20:57,540 INFO  parse.ParserFactory - The parsing plugins: [org.apache.nutch.parse.tika.TikaParser] are enabled via the plugin.includes system property, and all claim to support the content type application/pdf, but they are not mapped to it  in the parse-plugins.xml file
+2016-08-15 22:21:01,574 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:01,581 INFO  parse.ParseSegment - Parsed (2ms):http://file.mw1950.com/uploadfile/2012/0522/20120522105941706.pdf
+2016-08-15 22:21:01,588 INFO  parse.ParseSegment - http://images.ruc.edu.cn/other/2009-05-19/1242719307864.xls skipped. Content of size 1010688 was truncated to 1000000
+2016-08-15 22:21:01,596 INFO  parse.ParseSegment - http://mail.gzvtc.cn/gwjp/JXZY_UpFiles/20111031103349671801926533.ppt skipped. Content of size 2818048 was truncated to 1000000
+2016-08-15 22:21:01,656 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:01,660 INFO  parse.ParseSegment - Parsed (0ms):http://news.sina.com.cn/o/2016-06-30/doc-ifxtrwtu9491713.shtml
+2016-08-15 22:21:01,697 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:01,701 INFO  parse.ParseSegment - Parsed (1ms):http://www.adobe.com/tw/
+2016-08-15 22:21:01,759 INFO  parse.ParseSegment - Parsed (1ms):http://www.aol.com/article/2016/06/29/reporter-to-mexican-president-how-worried-are-you-that-this-ti/21421616/
+2016-08-15 22:21:01,791 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:01,795 INFO  parse.ParseSegment - Parsed (0ms):http://www.chinatimes.com/realtimenews/20160630001632-260401
+2016-08-15 22:21:01,898 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:01,903 INFO  parse.ParseSegment - Parsed (1ms):http://www.citytalk.tw/
+2016-08-15 22:21:01,980 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:01,984 INFO  parse.ParseSegment - Parsed (1ms):http://www.ettoday.net/news/20160629/725307.htm
+2016-08-15 22:21:02,004 INFO  parse.ParseSegment - Parsed (1ms):http://www.guinnessworldrecords.com/news/2016/6/japanese-baseball-star-ichiro-suzuki-sets-base-hit-world-record-433462
+2016-08-15 22:21:02,056 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:02,060 INFO  parse.ParseSegment - Parsed (0ms):http://www.isme.tw/
+2016-08-15 22:21:02,068 INFO  parse.ParseSegment - http://www.moe.edu.cn/ewebeditor/uploadfile/20101019095844154.doc skipped. Content of size 1218048 was truncated to 1000000
+2016-08-15 22:21:02,263 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:02,268 INFO  parse.ParseSegment - Parsed (1ms):http://www.qingdaonews.com/images/site1/20060406/020403060845126132612.doc
+2016-08-15 22:21:02,282 INFO  parse.ParseSegment - http://www.worlduc.com/FileSystem/18/2847/671212/2d49152d129d499883bbc834028d6f35.ppt skipped. Content of size 2694656 was truncated to 1000000
+2016-08-15 22:21:02,698 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:02,708 INFO  parse.ParseSegment - Parsed (3ms):http://www.yznews.com.cn/yzwb/page/2014-09/12/C02/20140912C02_pdf.pdf
+2016-08-15 22:21:02,713 INFO  parse.ParseSegment - http://zzwb.zynews.com/page/2/2014-11/17/A16/20141117A16_pdf.PDF skipped. Content of size 4029219 was truncated to 1000000
+2016-08-15 22:21:02,801 INFO  util.Langdetect - load zmk
+2016-08-15 22:21:02,804 INFO  parse.ParseSegment - Parsed (1ms):https://movie.douban.com/subject/6874741/
+2016-08-15 22:21:02,882 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-08-15 22:21:04,250 INFO  parse.ParseSegment - ParseSegment: finished at 2016-08-15 22:21:04, elapsed: 00:00:09
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: starting at 2016-08-15 22:21:04
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: db: pdfTmp/crawldb
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: segments: [pdfTmp/segments/20160815222024]
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
+2016-08-15 22:21:04,257 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2016-08-15 22:21:04,268 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:21:04,336 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke630597076/.staging/job_local630597076_0011/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:04,337 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke630597076/.staging/job_local630597076_0011/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:04,391 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local630597076_0011/job_local630597076_0011.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:04,392 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local630597076_0011/job_local630597076_0011.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:04,411 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-08-15 22:21:04,718 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-08-15 22:21:04,796 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-08-15 22:21:04,826 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:21:04,826 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:21:04,826 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:21:05,400 INFO  crawl.CrawlDb - CrawlDb update: finished at 2016-08-15 22:21:05, elapsed: 00:00:01
+2016-08-15 22:21:05,400 INFO  crawl.HostInjector - HostInjector: starting at 2016-08-15 22:21:05
+2016-08-15 22:21:05,400 INFO  crawl.HostInjector - HostInjector: crawlDb: pdfTmp/crawldb
+2016-08-15 22:21:05,400 INFO  crawl.HostInjector - HostInjector: hostDb: pdfTmp/hostdb
+2016-08-15 22:21:05,400 INFO  crawl.HostInjector - HostInjector: Converting urls to host entries.
+2016-08-15 22:21:05,412 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:21:05,488 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke88187610/.staging/job_local88187610_0012/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:05,490 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke88187610/.staging/job_local88187610_0012/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:05,641 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local88187610_0012/job_local88187610_0012.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:05,642 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local88187610_0012/job_local88187610_0012.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:05,670 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-08-15 22:21:06,653 INFO  crawl.HostInjector - Injector: Total number of urls rejected by filters: 0
+2016-08-15 22:21:06,654 INFO  crawl.HostInjector - Injector: Total number of urls scanned: 1009
+2016-08-15 22:21:06,654 INFO  crawl.HostInjector - HostInjector: Merging extracted hosts into host db.
+2016-08-15 22:21:06,694 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:21:06,919 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke677183004/.staging/job_local677183004_0013/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:06,920 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke677183004/.staging/job_local677183004_0013/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:07,047 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local677183004_0013/job_local677183004_0013.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:07,049 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local677183004_0013/job_local677183004_0013.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:07,170 INFO  crawl.HostInjector - HostInjector: overwrite: false
+2016-08-15 22:21:07,170 INFO  crawl.HostInjector - HostInjector: update: true
+2016-08-15 22:21:08,059 INFO  crawl.HostInjector - HostInjector: HOSTs merged: 30
+2016-08-15 22:21:08,063 INFO  crawl.HostInjector - HostInjector: finished at 2016-08-15 22:21:08, elapsed: 00:00:02
+2016-08-15 22:21:09,067 INFO  crawl.HostGenerator - HostGenerator: segment: pdfTmp/hostSegments/20160815222109
+2016-08-15 22:21:09,074 INFO  crawl.HostGenerator - HostGenerator: starting at 2016-08-15 22:21:09
+2016-08-15 22:21:09,074 INFO  crawl.HostGenerator - HostGenerator: Selecting best-scoring hosts due for resolve.
+2016-08-15 22:21:09,074 INFO  crawl.HostGenerator - HostGenerator: jobtracker is 'local', generating exactly one partition.
+2016-08-15 22:21:09,086 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:21:09,145 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke353555534/.staging/job_local353555534_0014/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:09,146 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke353555534/.staging/job_local353555534_0014/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:09,201 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local353555534_0014/job_local353555534_0014.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:09,202 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local353555534_0014/job_local353555534_0014.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:09,220 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:21:09,220 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:21:09,220 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:21:09,233 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:21:09,234 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:21:09,234 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:21:10,207 INFO  crawl.HostGenerator - HostGenerator: finished at 2016-08-15 22:21:10, elapsed: 00:00:01
+2016-08-15 22:21:10,207 INFO  crawl.HostFetcher - HostFetcher: starting at 2016-08-15 22:21:10
+2016-08-15 22:21:10,207 INFO  crawl.HostFetcher - HostFetcher: segment: pdfTmp/hostSegments/20160815222109
+2016-08-15 22:21:10,228 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:21:10,322 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1292301460/.staging/job_local1292301460_0015/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:10,324 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1292301460/.staging/job_local1292301460_0015/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:10,418 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1292301460_0015/job_local1292301460_0015.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:21:10,419 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1292301460_0015/job_local1292301460_0015.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:21:10,441 INFO  crawl.HostFetcher - Fetcher: time-out divisor: 2
+2016-08-15 22:21:10,443 INFO  crawl.HostFetcher - Resolving zszy.askci.com with dns server 114.114.114.114
+2016-08-15 22:21:10,445 INFO  crawl.HostFetcher - Resolving www.douban.com with dns server 198.153.192.1
+2016-08-15 22:21:10,445 INFO  crawl.HostFetcher - Resolving www.askci.com with dns server 211.161.159.66
+2016-08-15 22:21:10,445 INFO  crawl.HostFetcher - Resolving tags.news.sina.com.cn with dns server 208.67.220.220
+2016-08-15 22:21:10,445 INFO  crawl.HostFetcher - Resolving plus.google.com with dns server 8.8.8.8
+2016-08-15 22:21:10,446 INFO  crawl.HostFetcher - Resolving www.foxnews.com with dns server 114.114.115.115
+2016-08-15 22:21:10,446 INFO  crawl.HostFetcher - Resolving www.facebook.com with dns server 140.207.198.6
+2016-08-15 22:21:10,447 INFO  crawl.HostFetcher - Resolving www.blogsmithmedia.com with dns server 123.125.81.6
+2016-08-15 22:21:10,447 INFO  crawl.HostFetcher - Resolving baoxian.163.com with dns server 208.67.220.123
+2016-08-15 22:21:10,447 INFO  crawl.HostFetcher - Resolving www.qingdaochina.org with dns server 208.67.222.123
+2016-08-15 22:21:10,447 INFO  crawl.HostFetcher - Resolving qdqw.qingdao.gov.cn with dns server 210.2.2.2
+2016-08-15 22:21:10,447 INFO  crawl.HostFetcher - Resolving qd.people.com.cn with dns server 210.2.1.1
+2016-08-15 22:21:10,448 INFO  crawl.HostFetcher - Resolving www.travel.0532.com with dns server 1.2.4.8
+2016-08-15 22:21:10,448 INFO  crawl.HostFetcher - Resolving www.sinoces.com with dns server 208.67.222.222
+2016-08-15 22:21:10,448 INFO  crawl.HostFetcher - Resolving www.sina-qd.com with dns server 210.2.4.8
+2016-08-15 22:21:10,448 INFO  crawl.HostFetcher - Resolving www.qingdaomedia.com with dns server 198.153.194.1
+2016-08-15 22:21:10,449 INFO  crawl.HostFetcher - Resolving www.qingdaochina.com with dns server 8.8.4.4
+2016-08-15 22:21:10,449 INFO  crawl.HostFetcher - Resolving www.qingdaobeerfestival.com with dns server 211.161.158.10
+2016-08-15 22:21:11,175 INFO  crawl.HostFetcher - Resolving www.qingdao.gov.cn with dns server 8.8.8.8
+2016-08-15 22:21:11,177 INFO  crawl.HostFetcher - Resolving www.qdtb.org.cn with dns server 1.2.4.8
+2016-08-15 22:21:11,188 INFO  crawl.HostFetcher - Resolving www.qdta.gov.cn with dns server 123.125.81.6
+2016-08-15 22:21:11,196 INFO  crawl.HostFetcher - Resolving www.apec-metc.gov.cn with dns server 140.207.198.6
+2016-08-15 22:21:11,203 INFO  crawl.HostFetcher - Resolving www.cnqd.net with dns server 198.153.192.1
+2016-08-15 22:21:11,205 INFO  crawl.HostFetcher - Resolving video.sina.com.cn with dns server 114.114.114.114
+2016-08-15 22:21:11,317 INFO  crawl.HostFetcher - Resolving events.ettoday.net with dns server 8.8.4.4
+2016-08-15 22:21:11,319 INFO  crawl.HostFetcher - Resolving piao.163.com with dns server 208.67.222.222
+2016-08-15 22:21:11,324 INFO  crawl.HostFetcher - Resolving instagram.com with dns server 208.67.220.220
+2016-08-15 22:21:11,329 INFO  crawl.HostFetcher - Resolving www.sina.com.cn with dns server 198.153.194.1
+2016-08-15 22:21:11,332 INFO  crawl.HostFetcher - Resolving zhuanlan.sina.com.cn with dns server 208.67.220.123
+2016-08-15 22:21:11,345 INFO  crawl.HostFetcher - Resolving discover.aol.com with dns server 210.2.4.8
+2016-08-15 22:21:12,187 INFO  crawl.HostFetcher - Resolving m.sina.com.cn with dns server 123.125.81.6
+2016-08-15 22:21:12,188 INFO  crawl.HostFetcher - Resolving caipiao.163.com with dns server 114.114.114.114
+2016-08-15 22:21:12,349 INFO  crawl.HostFetcher - Resolving pagead.chinatimes.com with dns server 140.207.198.6
+2016-08-15 22:21:12,424 INFO  crawl.HostFetcher - Resolving get.adobe.com with dns server 208.67.220.220
+2016-08-15 22:21:12,469 INFO  crawl.HostFetcher - Resolving acrobat.adobe.com with dns server 1.2.4.8
+2016-08-15 22:21:12,490 INFO  crawl.HostFetcher - Resolving tech.163.com with dns server 208.67.222.222
+2016-08-15 22:21:12,507 INFO  crawl.HostFetcher - Resolving twitter.com with dns server 8.8.8.8
+2016-08-15 22:21:12,556 INFO  crawl.HostFetcher - Resolving www.youtube.com with dns server 8.8.4.4
+2016-08-15 22:21:12,559 INFO  crawl.HostFetcher - Resolving www.businessinsider.com with dns server 198.153.194.1
+2016-08-15 22:21:12,575 INFO  crawl.HostFetcher - Resolving mobile.aol.com with dns server 114.114.115.115
+2016-08-15 22:21:12,583 INFO  crawl.HostFetcher - Resolving money.163.com with dns server 208.67.220.123
+2016-08-15 22:21:12,583 INFO  crawl.HostFetcher - Resolving sports.163.com with dns server 114.114.114.114
+2016-08-15 22:21:12,585 INFO  crawl.HostFetcher - Resolving mall.163.com with dns server 123.125.81.6
+2016-08-15 22:21:12,585 INFO  crawl.HostFetcher - Resolving corp.sina.com.cn with dns server 210.2.4.8
+2016-08-15 22:21:12,586 INFO  crawl.HostFetcher - Resolving news.163.com with dns server 140.207.198.6
+2016-08-15 22:21:22,701 INFO  crawl.HostFetcher - Resolving www.sitebro.tw with dns server 198.153.192.1
+2016-08-15 22:21:22,702 INFO  crawl.HostFetcher - Resolving tw.webmaster.yahoo.com with dns server 1.2.4.8
+2016-08-15 22:21:22,703 INFO  crawl.HostFetcher - Resolving www.163.com with dns server 114.114.115.115
+2016-08-15 22:21:22,703 INFO  crawl.HostFetcher - Resolving trend.caipiao.163.com with dns server 208.67.220.123
+2016-08-15 22:21:22,703 INFO  crawl.HostFetcher - Resolving edu.163.com with dns server 210.2.4.8
+2016-08-15 22:21:23,335 INFO  crawl.HostFetcher - Resolving www.guinnessworldrecords.cn with dns server 208.67.222.222
+2016-08-15 22:21:23,763 INFO  crawl.HostFetcher - Resolving kids.guinnessworldrecords.com with dns server 208.67.222.222
+2016-08-15 22:21:24,201 INFO  crawl.HostFetcher - Resolving www.linkedin.com with dns server 208.67.222.222
+2016-08-15 22:21:24,378 INFO  crawl.HostFetcher - Resolving store.guinnessworldrecords.com with dns server 208.67.222.222
+2016-08-15 22:21:24,698 INFO  crawl.HostFetcher - Resolving www.plurk.com with dns server 208.67.222.222
+2016-08-15 22:21:24,870 INFO  crawl.HostFetcher - Resolving blog.sina.com.cn with dns server 208.67.222.222
+2016-08-15 22:21:25,043 INFO  crawl.HostFetcher - Resolving finance.sina.com.cn with dns server 208.67.222.222
+2016-08-15 22:21:25,516 INFO  crawl.HostFetcher - Resolving sea.sina.com.cn with dns server 208.67.222.222
+2016-08-15 22:21:26,491 INFO  crawl.HostFetcher - Resolving games.sina.com.cn with dns server 208.67.222.222
+2016-08-15 22:21:27,297 INFO  crawl.HostFetcher - Resolving city.finance.sina.com.cn with dns server 208.67.222.222
+2016-08-15 22:21:28,752 INFO  crawl.HostFetcher - Resolving 2016.163.com with dns server 208.67.222.222
+2016-08-15 22:21:28,926 INFO  crawl.HostFetcher - Resolving auto.163.com with dns server 208.67.222.222
+2016-08-15 22:21:29,100 INFO  crawl.HostFetcher - Resolving fashion.ettoday.net with dns server 208.67.222.222
+2016-08-15 22:21:29,275 INFO  crawl.HostFetcher - Resolving boba.ettoday.net with dns server 208.67.222.222
+2016-08-15 22:21:29,449 INFO  crawl.HostFetcher - Resolving travel.ettoday.net with dns server 208.67.222.222
+2016-08-15 22:21:29,627 INFO  crawl.HostFetcher - Resolving mybenefits.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:29,805 INFO  crawl.HostFetcher - Resolving weather.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:30,008 INFO  crawl.HostFetcher - Resolving corp.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:30,183 INFO  crawl.HostFetcher - Resolving account.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:30,359 INFO  crawl.HostFetcher - Resolving foxnews.com with dns server 208.67.222.222
+2016-08-15 22:21:30,537 INFO  crawl.HostFetcher - Resolving www.nytimes.com with dns server 208.67.222.222
+2016-08-15 22:21:30,561 INFO  crawl.HostFetcher - Resolving myaccount.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:30,744 INFO  crawl.HostFetcher - Resolving gobankingrates.com with dns server 208.67.222.222
+2016-08-15 22:21:30,916 INFO  crawl.HostFetcher - Resolving help.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:31,090 INFO  crawl.HostFetcher - Resolving privacy.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:31,648 INFO  crawl.HostFetcher - Resolving www.mapquest.com with dns server 208.67.222.222
+2016-08-15 22:21:31,825 INFO  crawl.HostFetcher - Resolving adinfo.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:31,998 INFO  crawl.HostFetcher - Resolving parachute.mapquest.com with dns server 208.67.222.222
+2016-08-15 22:21:32,175 INFO  crawl.HostFetcher - Resolving www.aim.com with dns server 208.67.222.222
+2016-08-15 22:21:33,669 INFO  crawl.HostFetcher - Resolving legal.aol.com with dns server 208.67.222.222
+2016-08-15 22:21:33,840 INFO  crawl.HostFetcher - Resolving lendingtree.com with dns server 208.67.222.222
+2016-08-15 22:21:34,017 INFO  crawl.HostFetcher - Resolving nextadvisor.com with dns server 208.67.222.222
+2016-08-15 22:21:34,190 INFO  crawl.HostFetcher - Resolving lady.163.com with dns server 208.67.222.222
+2016-08-15 22:21:34,366 INFO  crawl.HostFetcher - Resolving feeds.feedburner.com with dns server 208.67.222.222
+2016-08-15 22:21:35,177 INFO  crawl.HostFetcher - Resolving jingdian.travel.163.com with dns server 208.67.222.222
+2016-08-15 22:21:36,735 INFO  crawl.HostFetcher - Resolving travel.163.com with dns server 208.67.222.222
+2016-08-15 22:21:36,907 INFO  crawl.HostFetcher - Resolving home.163.com with dns server 208.67.222.222
+2016-08-15 22:21:37,502 INFO  crawl.HostFetcher - Resolving cai.163.com with dns server 208.67.222.222
+2016-08-15 22:21:37,714 INFO  crawl.HostFetcher - Resolving digi.163.com with dns server 208.67.222.222
+2016-08-15 22:21:37,887 INFO  crawl.HostFetcher - Resolving tube.chinatimes.com with dns server 208.67.222.222
+2016-08-15 22:21:38,093 INFO  crawl.HostFetcher - Resolving weishi.com with dns server 208.67.222.222
+2016-08-15 22:21:38,263 INFO  crawl.HostFetcher - Resolving star.chinatimes.com with dns server 208.67.222.222
+2016-08-15 22:21:38,578 INFO  crawl.HostFetcher - Resolving weibo.com with dns server 208.67.222.222
+2016-08-15 22:21:38,752 INFO  crawl.HostFetcher - Resolving www.tudou.com with dns server 208.67.222.222
+2016-08-15 22:21:38,927 INFO  crawl.HostFetcher - Resolving e.weibo.com with dns server 208.67.222.222
+2016-08-15 22:21:39,103 INFO  crawl.HostFetcher - Resolving www.pinterest.com with dns server 208.67.222.222
+2016-08-15 22:21:39,288 INFO  crawl.HostFetcher - Resolving www.meipai.com with dns server 208.67.222.222
+2016-08-15 22:21:40,451 INFO  crawl.HostFetcher - fetch of www.askci.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:40,452 INFO  crawl.HostFetcher - Resolving magazine.chinatimes.com with dns server 211.161.159.66
+2016-08-15 22:21:40,453 INFO  crawl.HostFetcher - fetch of www.qingdaochina.org failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:40,453 INFO  crawl.HostFetcher - Resolving ivoting.chinatimes.com with dns server 208.67.222.123
+2016-08-15 22:21:40,455 INFO  crawl.HostFetcher - fetch of qdqw.qingdao.gov.cn failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:40,456 INFO  crawl.HostFetcher - Resolving newsblog.chinatimes.com with dns server 210.2.2.2
+2016-08-15 22:21:40,457 INFO  crawl.HostFetcher - fetch of qd.people.com.cn failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:40,457 INFO  crawl.HostFetcher - Resolving tech.sina.com.cn with dns server 210.2.1.1
+2016-08-15 22:21:40,458 INFO  crawl.HostFetcher - fetch of www.qingdaobeerfestival.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:40,458 INFO  crawl.HostFetcher - Resolving sports.sina.com.cn with dns server 211.161.158.10
+2016-08-15 22:21:40,462 INFO  crawl.HostFetcher - Resolving travel.sina.com.cn with dns server 208.67.222.222
+2016-08-15 22:21:40,640 INFO  crawl.HostFetcher - Resolving photo.sina.com.cn with dns server 208.67.222.123
+2016-08-15 22:21:42,427 INFO  crawl.HostFetcher - fetch of get.adobe.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:42,427 INFO  crawl.HostFetcher - Resolving mail.sina.net with dns server 208.67.220.220
+2016-08-15 22:21:42,439 INFO  crawl.HostFetcher - Resolving mail.sina.com.cn with dns server 208.67.222.222
+2016-08-15 22:21:42,440 INFO  crawl.HostFetcher - Resolving login.sina.com.cn with dns server 208.67.222.123
+2016-08-15 22:21:42,510 INFO  crawl.HostFetcher - fetch of twitter.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:42,510 INFO  crawl.HostFetcher - Resolving house.sina.com.cn with dns server 8.8.8.8
+2016-08-15 22:21:42,561 INFO  crawl.HostFetcher - fetch of www.youtube.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:42,561 INFO  crawl.HostFetcher - Resolving history.sina.com.cn with dns server 8.8.4.4
+2016-08-15 22:21:42,563 INFO  crawl.HostFetcher - fetch of www.businessinsider.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:42,563 INFO  crawl.HostFetcher - Resolving help.sina.com.cn with dns server 198.153.194.1
+2016-08-15 22:21:42,588 INFO  crawl.HostFetcher - fetch of sports.163.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:42,589 INFO  crawl.HostFetcher - Resolving health.sina.com.cn with dns server 114.114.114.114
+2016-08-15 22:21:42,590 INFO  crawl.HostFetcher - fetch of news.163.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:42,590 INFO  crawl.HostFetcher - fetch of mall.163.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:42,590 INFO  crawl.HostFetcher - Resolving fo.sina.com.cn with dns server 140.207.198.6
+2016-08-15 22:21:42,590 INFO  crawl.HostFetcher - Resolving fashion.sina.com.cn with dns server 123.125.81.6
+2016-08-15 22:21:42,640 INFO  crawl.HostFetcher - Resolving ent.sina.com.cn with dns server 114.114.114.114
+2016-08-15 22:21:42,651 INFO  crawl.HostFetcher - Resolving english.sina.com with dns server 123.125.81.6
+2016-08-15 22:21:42,658 INFO  crawl.HostFetcher - Resolving emarketing.sina.com.cn with dns server 140.207.198.6
+2016-08-15 22:21:42,693 INFO  crawl.HostFetcher - Resolving eladies.sina.com.cn with dns server 114.114.114.114
+2016-08-15 22:21:42,716 INFO  crawl.HostFetcher - Resolving edu.sina.com.cn with dns server 123.125.81.6
+2016-08-15 22:21:42,726 INFO  crawl.HostFetcher - Resolving www.sinanet.com with dns server 140.207.198.6
+2016-08-15 22:21:42,744 INFO  crawl.HostFetcher - Resolving darentong.weibo.com with dns server 114.114.114.114
+2016-08-15 22:21:42,778 INFO  crawl.HostFetcher - Resolving collection.sina.com.cn with dns server 123.125.81.6
+2016-08-15 22:21:42,794 INFO  crawl.HostFetcher - Resolving book.sina.com.cn with dns server 140.207.198.6
+2016-08-15 22:21:42,797 INFO  crawl.HostFetcher - Resolving baby.sina.com.cn with dns server 114.114.114.114
+2016-08-15 22:21:42,798 INFO  crawl.HostFetcher - Resolving auto.sina.com.cn with dns server 208.67.222.123
+2016-08-15 22:21:42,841 INFO  crawl.HostFetcher - Resolving astro.sina.com.cn with dns server 123.125.81.6
+2016-08-15 22:21:42,850 INFO  crawl.HostFetcher - Resolving gb.corp.163.com with dns server 114.114.114.114
+2016-08-15 22:21:42,855 INFO  crawl.HostFetcher - Resolving fashion.163.com with dns server 140.207.198.6
+2016-08-15 22:21:42,859 INFO  crawl.HostFetcher - Resolving use.typekit.com with dns server 208.67.222.222
+2016-08-15 22:21:42,870 INFO  crawl.HostFetcher - Resolving helpx.adobe.com with dns server 8.8.8.8
+2016-08-15 22:21:42,898 INFO  crawl.HostFetcher - Resolving universal.iperceptions.com with dns server 114.114.114.114
+2016-08-15 22:21:42,903 INFO  crawl.HostFetcher - Resolving geo2.adobe.com with dns server 123.125.81.6
+2016-08-15 22:21:42,924 INFO  crawl.HostFetcher - Resolving fast.adobe.demdex.net with dns server 140.207.198.6
+2016-08-15 22:21:42,935 INFO  crawl.HostFetcher - Resolving stats.adobe.com with dns server 8.8.4.4
+2016-08-15 22:21:42,940 INFO  crawl.HostFetcher - Resolving store2.adobe.com with dns server 208.67.220.220
+2016-08-15 22:21:42,954 INFO  crawl.HostFetcher - Resolving assets.adobedtm.com with dns server 114.114.114.114
+2016-08-15 22:21:42,967 INFO  crawl.HostFetcher - Resolving api.demandbase.com with dns server 123.125.81.6
+2016-08-15 22:21:42,993 INFO  crawl.HostFetcher - Resolving adobeid-na1.services.adobe.com with dns server 140.207.198.6
+2016-08-15 22:21:43,002 INFO  crawl.HostFetcher - Resolving adobe.demdex.net with dns server 114.114.114.114
+2016-08-15 22:21:43,027 INFO  crawl.HostFetcher - Resolving dpm.demdex.net with dns server 123.125.81.6
+2016-08-15 22:21:43,040 INFO  crawl.HostFetcher - Resolving adobe.com with dns server 208.67.222.222
+2016-08-15 22:21:43,060 INFO  crawl.HostFetcher - Resolving wwwimages.adobe.com with dns server 140.207.198.6
+2016-08-15 22:21:43,087 INFO  crawl.HostFetcher - Resolving wwwimages2.adobe.com with dns server 123.125.81.6
+2016-08-15 22:21:43,101 INFO  crawl.HostFetcher - Resolving static.adobelogin.com with dns server 198.153.194.1
+2016-08-15 22:21:43,115 INFO  crawl.HostFetcher - Resolving blogs.adobe.com with dns server 8.8.8.8
+2016-08-15 22:21:43,124 INFO  crawl.HostFetcher - Resolving p.typekit.net with dns server 208.67.220.220
+2016-08-15 22:21:43,130 INFO  crawl.HostFetcher - Resolving game.ettoday.net with dns server 140.207.198.6
+2016-08-15 22:21:43,149 INFO  crawl.HostFetcher - Resolving s3.amazonaws.com with dns server 123.125.81.6
+2016-08-15 22:21:43,162 INFO  crawl.HostFetcher - Resolving sports.ettoday.net with dns server 8.8.4.4
+2016-08-15 22:21:43,207 INFO  crawl.HostFetcher - Resolving star.ettoday.net with dns server 123.125.81.6
+2016-08-15 22:21:43,214 INFO  crawl.HostFetcher - Resolving music.douban.com with dns server 208.67.222.123
+2016-08-15 22:21:43,217 INFO  crawl.HostFetcher - Resolving ypy.douban.com with dns server 208.67.222.222
+2016-08-15 22:21:43,265 INFO  crawl.HostFetcher - Resolving moment.douban.com with dns server 123.125.81.6
+2016-08-15 22:21:43,316 INFO  crawl.HostFetcher - Resolving site.douban.com with dns server 140.207.198.6
+2016-08-15 22:21:43,322 INFO  crawl.HostFetcher - Resolving book.douban.com with dns server 8.8.8.8
+2016-08-15 22:21:43,327 INFO  crawl.HostFetcher - Resolving market.douban.com with dns server 208.67.220.220
+2016-08-15 22:21:43,327 INFO  crawl.HostFetcher - Resolving mobile.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,374 INFO  crawl.HostFetcher - Resolving pay.163.com with dns server 198.153.194.1
+2016-08-15 22:21:43,383 INFO  crawl.HostFetcher - Resolving reg.163.com with dns server 140.207.198.6
+2016-08-15 22:21:43,388 INFO  crawl.HostFetcher - Resolving product.auto.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,392 INFO  crawl.HostFetcher - Resolving house.163.com with dns server 8.8.4.4
+2016-08-15 22:21:43,425 INFO  crawl.HostFetcher - Resolving x.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,445 INFO  crawl.HostFetcher - Resolving email.163.com with dns server 140.207.198.6
+2016-08-15 22:21:43,447 INFO  crawl.HostFetcher - Resolving renjian.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,475 INFO  crawl.HostFetcher - Resolving corp.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,509 INFO  crawl.HostFetcher - Resolving d.news.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,514 INFO  crawl.HostFetcher - Resolving v.163.com with dns server 140.207.198.6
+2016-08-15 22:21:43,528 INFO  crawl.HostFetcher - Resolving sitemap.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,551 INFO  crawl.HostFetcher - Resolving static.ettoday.net with dns server 208.67.222.222
+2016-08-15 22:21:43,555 INFO  crawl.HostFetcher - Resolving cdn1.ettoday.net with dns server 208.67.222.123
+2016-08-15 22:21:43,570 INFO  crawl.HostFetcher - Resolving cache.ettoday.net with dns server 8.8.8.8
+2016-08-15 22:21:43,573 INFO  crawl.HostFetcher - Resolving ad.ettoday.net with dns server 123.125.81.6
+2016-08-15 22:21:43,577 INFO  crawl.HostFetcher - Resolving movies.ettoday.net with dns server 140.207.198.6
+2016-08-15 22:21:43,577 INFO  crawl.HostFetcher - Resolving data.ent.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,625 INFO  crawl.HostFetcher - Resolving ecard.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,632 INFO  crawl.HostFetcher - Resolving note.youdao.com with dns server 123.125.81.6
+2016-08-15 22:21:43,681 INFO  crawl.HostFetcher - Resolving cosmetic.lady.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,689 INFO  crawl.HostFetcher - Resolving v.mobile.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,725 INFO  crawl.HostFetcher - Resolving img1.126.net with dns server 208.67.222.222
+2016-08-15 22:21:43,727 INFO  crawl.HostFetcher - Resolving live.caipiao.163.com with dns server 208.67.222.123
+2016-08-15 22:21:43,732 INFO  crawl.HostFetcher - Resolving xf.house.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,734 INFO  crawl.HostFetcher - Resolving club.tech.163.com with dns server 140.207.198.6
+2016-08-15 22:21:43,744 INFO  crawl.HostFetcher - Resolving club.auto.163.com with dns server 198.153.194.1
+2016-08-15 22:21:43,744 INFO  crawl.HostFetcher - Resolving kids.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,745 INFO  crawl.HostFetcher - Resolving qiye.163.com with dns server 208.67.220.220
+2016-08-15 22:21:43,765 INFO  crawl.HostFetcher - Resolving emarketing.163.com with dns server 8.8.8.8
+2016-08-15 22:21:43,784 INFO  crawl.HostFetcher - Resolving quotes.money.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,793 INFO  crawl.HostFetcher - Resolving jubao.aq.163.com with dns server 8.8.4.4
+2016-08-15 22:21:43,801 INFO  crawl.HostFetcher - Resolving baby.163.com with dns server 140.207.198.6
+2016-08-15 22:21:43,803 INFO  crawl.HostFetcher - Resolving m.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,833 INFO  crawl.HostFetcher - Resolving vipmail.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,858 INFO  crawl.HostFetcher - Resolving war.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,861 INFO  crawl.HostFetcher - Resolving www.oppo.com with dns server 140.207.198.6
+2016-08-15 22:21:43,883 INFO  crawl.HostFetcher - Resolving view.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,907 INFO  crawl.HostFetcher - Resolving bj.house.163.com with dns server 208.67.222.222
+2016-08-15 22:21:43,914 INFO  crawl.HostFetcher - Resolving epay.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,917 INFO  crawl.HostFetcher - Resolving sh.house.163.com with dns server 208.67.220.220
+2016-08-15 22:21:43,923 INFO  crawl.HostFetcher - Resolving biz.163.com with dns server 140.207.198.6
+2016-08-15 22:21:43,931 INFO  crawl.HostFetcher - Resolving fa.163.com with dns server 114.114.114.114
+2016-08-15 22:21:43,963 INFO  crawl.HostFetcher - Resolving img3.126.net with dns server 8.8.8.8
+2016-08-15 22:21:43,971 INFO  crawl.HostFetcher - Resolving product.mobile.163.com with dns server 123.125.81.6
+2016-08-15 22:21:43,983 INFO  crawl.HostFetcher - Resolving help.163.com with dns server 140.207.198.6
+2016-08-15 22:21:43,986 INFO  crawl.HostFetcher - Resolving yuedu.163.com with dns server 114.114.114.114
+2016-08-15 22:21:44,018 INFO  crawl.HostFetcher - Resolving hea.163.com with dns server 8.8.4.4
+2016-08-15 22:21:44,031 INFO  crawl.HostFetcher - Resolving gz.house.163.com with dns server 123.125.81.6
+2016-08-15 22:21:44,036 INFO  crawl.HostFetcher - Resolving guizhou.travel.163.com with dns server 114.114.114.114
+2016-08-15 22:21:44,044 INFO  crawl.HostFetcher - Resolving music.163.com with dns server 140.207.198.6
+2016-08-15 22:21:44,079 INFO  crawl.HostFetcher - Resolving discovery.163.com with dns server 208.67.222.222
+2016-08-15 22:21:44,090 INFO  crawl.HostFetcher - Resolving open.163.com with dns server 208.67.220.220
+2016-08-15 22:21:44,096 INFO  crawl.HostFetcher - Resolving shoucang.163.com with dns server 208.67.222.123
+2016-08-15 22:21:44,096 INFO  crawl.HostFetcher - Resolving daxue.163.com with dns server 123.125.81.6
+2016-08-15 22:21:44,118 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,118 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=17
+2016-08-15 22:21:44,154 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,154 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=16
+2016-08-15 22:21:44,173 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,173 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=15
+2016-08-15 22:21:44,235 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,235 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=14
+2016-08-15 22:21:44,264 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,265 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=13
+2016-08-15 22:21:44,270 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,270 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=12
+2016-08-15 22:21:44,321 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,322 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=11
+2016-08-15 22:21:44,351 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:44,351 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=10
+2016-08-15 22:21:45,751 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:45,751 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=9
+2016-08-15 22:21:52,706 INFO  crawl.HostFetcher - fetch of tw.webmaster.yahoo.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:52,706 INFO  crawl.HostFetcher - fetch of www.sitebro.tw failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:52,707 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:52,707 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:52,707 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=8
+2016-08-15 22:21:52,707 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=7
+2016-08-15 22:21:52,708 INFO  crawl.HostFetcher - fetch of edu.163.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:52,708 INFO  crawl.HostFetcher - fetch of trend.caipiao.163.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:52,708 INFO  crawl.HostFetcher - fetch of www.163.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:21:52,709 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:52,709 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:52,709 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:21:52,709 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=5
+2016-08-15 22:21:52,709 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=6
+2016-08-15 22:21:52,709 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=4
+2016-08-15 22:22:10,454 INFO  crawl.HostFetcher - fetch of magazine.chinatimes.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:22:10,455 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:22:10,455 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=3
+2016-08-15 22:22:10,458 INFO  crawl.HostFetcher - fetch of newsblog.chinatimes.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:22:10,458 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:22:10,458 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=2
+2016-08-15 22:22:10,459 INFO  crawl.HostFetcher - fetch of tech.sina.com.cn failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:22:10,459 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:22:10,459 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=1
+2016-08-15 22:22:10,459 INFO  crawl.HostFetcher - fetch of sports.sina.com.cn failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-15 22:22:10,460 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-15 22:22:10,460 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=0
+2016-08-15 22:22:10,667 INFO  crawl.HostFetcher - -activeThreads=0
+2016-08-15 22:22:11,659 INFO  crawl.HostFetcher - HostFetcher: finished at 2016-08-15 22:22:11, elapsed: 00:01:01
+2016-08-15 22:22:11,668 INFO  crawl.HostDb - HostDb update: starting at 2016-08-15 22:22:11
+2016-08-15 22:22:11,668 INFO  crawl.HostDb - HostDb update: db: pdfTmp/hostdb
+2016-08-15 22:22:11,668 INFO  crawl.HostDb - HostDb update: segments: [pdfTmp/hostSegments/20160815222109]
+2016-08-15 22:22:11,668 INFO  crawl.HostDb - HostDb update: additions allowed: true
+2016-08-15 22:22:11,668 INFO  crawl.HostDb - HostDb update: 404 purging: false
+2016-08-15 22:22:11,668 INFO  crawl.HostDb - HostDb update: Merging segment data into db.
+2016-08-15 22:22:11,690 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:22:11,816 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke520982900/.staging/job_local520982900_0016/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:11,817 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke520982900/.staging/job_local520982900_0016/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:11,896 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local520982900_0016/job_local520982900_0016.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:11,898 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local520982900_0016/job_local520982900_0016.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:12,051 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:22:12,051 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:22:12,051 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:22:12,905 INFO  crawl.HostDb - HostDb update: finished at 2016-08-15 22:22:12, elapsed: 00:00:01
+2016-08-15 22:22:12,911 INFO  crawl.NewGenerator - Generator: starting at 2016-08-15 22:22:12
+2016-08-15 22:22:12,911 INFO  crawl.NewGenerator - Generator: Preselecting urls due for fetch.
+2016-08-15 22:22:12,911 INFO  crawl.NewGenerator - Generator: filtering: true
+2016-08-15 22:22:12,911 INFO  crawl.NewGenerator - Generator: normalizing: true
+2016-08-15 22:22:12,922 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:22:12,983 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1742561583/.staging/job_local1742561583_0017/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:12,984 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1742561583/.staging/job_local1742561583_0017/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:13,046 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1742561583_0017/job_local1742561583_0017.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:13,047 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1742561583_0017/job_local1742561583_0017.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:13,071 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:22:13,071 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:22:13,071 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:22:14,052 INFO  crawl.NewGenerator - Generator: Retrieving IP from hostdb.
+2016-08-15 22:22:14,065 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:22:14,172 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke609256559/.staging/job_local609256559_0018/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:14,174 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke609256559/.staging/job_local609256559_0018/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:14,286 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local609256559_0018/job_local609256559_0018.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:14,288 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local609256559_0018/job_local609256559_0018.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:15,292 INFO  crawl.NewGenerator - Generator: Selecting best urls due for fetch.
+2016-08-15 22:22:15,293 INFO  crawl.NewGenerator - Generator: jobtracker is 'local', generating exactly one partition.
+2016-08-15 22:22:15,305 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:22:15,359 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1167476600/.staging/job_local1167476600_0019/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:15,360 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1167476600/.staging/job_local1167476600_0019/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:15,408 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1167476600_0019/job_local1167476600_0019.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:15,410 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1167476600_0019/job_local1167476600_0019.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:15,433 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:22:15,433 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:22:15,433 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:22:15,464 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-15 22:22:15,464 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-15 22:22:15,464 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-15 22:22:15,464 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-08-15 22:22:15,472 INFO  crawl.NewGenerator - Host or domain zszy.askci.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,472 INFO  crawl.NewGenerator - Host or domain www.isme.tw has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,473 INFO  crawl.NewGenerator - Host or domain www.guinnessworldrecords.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,473 INFO  crawl.NewGenerator - Host or domain www.chinatimes.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,474 INFO  crawl.NewGenerator - Host or domain news.sina.com.cn has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,475 INFO  crawl.NewGenerator - Host or domain www.aol.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,476 INFO  crawl.NewGenerator - Host or domain www.foxnews.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,476 INFO  crawl.NewGenerator - Host or domain movie.douban.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,476 INFO  crawl.NewGenerator - Host or domain www.douban.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,477 INFO  crawl.NewGenerator - Host or domain www.citytalk.tw has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,477 INFO  crawl.NewGenerator - Host or domain www.ettoday.net has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,477 INFO  crawl.NewGenerator - Host or domain www.facebook.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,477 INFO  crawl.NewGenerator - Host or domain plus.google.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,480 INFO  crawl.NewGenerator - Host or domain zhuanlan.sina.com.cn has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,480 INFO  crawl.NewGenerator - Host or domain www.sina.com.cn has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,480 INFO  crawl.NewGenerator - Host or domain tags.news.sina.com.cn has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,480 INFO  crawl.NewGenerator - Host or domain m.sina.com.cn has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,480 INFO  crawl.NewGenerator - Host or domain ent.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,481 INFO  crawl.NewGenerator - Host or domain www.adobe.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,483 INFO  crawl.NewGenerator - Host or domain acrobat.adobe.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,492 INFO  crawl.NewGenerator - Host or domain events.ettoday.net has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,499 INFO  crawl.NewGenerator - Host or domain piao.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,500 INFO  crawl.NewGenerator - Host or domain tech.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,500 INFO  crawl.NewGenerator - Host or domain travel.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,500 INFO  crawl.NewGenerator - Host or domain auto.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,501 INFO  crawl.NewGenerator - Host or domain baoxian.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,501 INFO  crawl.NewGenerator - Host or domain caipiao.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,502 INFO  crawl.NewGenerator - Host or domain cai.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,502 INFO  crawl.NewGenerator - Host or domain 2016.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,502 INFO  crawl.NewGenerator - Host or domain digi.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,502 INFO  crawl.NewGenerator - Host or domain money.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,502 INFO  crawl.NewGenerator - Host or domain lady.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,505 INFO  crawl.NewGenerator - Host or domain jingdian.travel.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:15,505 INFO  crawl.NewGenerator - Host or domain home.163.com has more than 3 URLs for all 1 segments. Additional URLs won't be included in the fetchlist.
+2016-08-15 22:22:16,418 INFO  crawl.NewGenerator - Generator: Partitioning selected urls for politeness.
+2016-08-15 22:22:17,421 INFO  crawl.NewGenerator - Generator: segment: pdfTmp/segments/20160815222217
+2016-08-15 22:22:17,432 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:22:17,501 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1388782348/.staging/job_local1388782348_0020/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:17,502 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1388782348/.staging/job_local1388782348_0020/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:17,563 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1388782348_0020/job_local1388782348_0020.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:17,564 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1388782348_0020/job_local1388782348_0020.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:18,573 INFO  crawl.NewGenerator - Generator: finished at 2016-08-15 22:22:18, elapsed: 00:00:05
+2016-08-15 22:22:18,573 INFO  fetcher.Fetcher - Fetcher: starting at 2016-08-15 22:22:18
+2016-08-15 22:22:18,573 INFO  fetcher.Fetcher - Fetcher: segment: pdfTmp/segments/20160815222217
+2016-08-15 22:22:18,584 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-15 22:22:18,638 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1121198609/.staging/job_local1121198609_0021/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:18,639 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1121198609/.staging/job_local1121198609_0021/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:18,697 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1121198609_0021/job_local1121198609_0021.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-15 22:22:18,698 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1121198609_0021/job_local1121198609_0021.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-15 22:22:18,729 INFO  fetcher.FetchItemQueues - Using queue mode : byHost
+2016-08-15 22:22:18,729 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2016-08-15 22:22:18,729 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2016-08-15 22:22:18,733 INFO  fetcher.QueueFeeder - QueueFeeder finished: total 251 records + hit by time limit :0
+2016-08-15 22:22:18,737 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,739 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,739 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,739 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,740 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,740 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,741 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,741 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,741 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,742 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-15 22:22:18,742 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
+2016-08-15 22:22:18,742 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2016-08-15 22:22:18,743 INFO  fetcher.FetcherThread - fetching https://www.linkedin.com/company/guinness-world-records (queue crawl delay=5000ms)
+2016-08-15 22:22:18,743 INFO  fetcher.FetcherThread - fetching http://star.chinatimes.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:18,743 INFO  fetcher.FetcherThread - fetching http://www.qingdaonews.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:18,743 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:22:18,743 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:22:18,743 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:22:18,743 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:22:18,743 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:22:18,743 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:22:18,743 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:22:18,743 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:22:18,743 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:22:18,743 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:22:18,743 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:22:18,745 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:22:18,745 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:22:18,745 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:22:18,745 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:22:18,745 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:22:18,745 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:22:18,745 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:22:18,747 INFO  fetcher.FetcherThread - fetching http://open.163.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:18,747 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-15 22:22:18,747 INFO  http.Http - http.proxy.host = null
+2016-08-15 22:22:18,747 INFO  http.Http - http.proxy.port = 8080
+2016-08-15 22:22:18,747 INFO  http.Http - http.proxy.exception.list = false
+2016-08-15 22:22:18,747 INFO  http.Http - http.timeout = 10000
+2016-08-15 22:22:18,747 INFO  http.Http - http.content.limit = 1000000
+2016-08-15 22:22:18,747 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-15 22:22:18,747 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-15 22:22:18,747 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-15 22:22:18,748 INFO  fetcher.FetcherThread - fetching http://p.typekit.net/ (queue crawl delay=5000ms)
+2016-08-15 22:22:18,748 INFO  fetcher.FetcherThread - fetching http://weibo.com/chinatimessocial (queue crawl delay=5000ms)
+2016-08-15 22:22:18,749 INFO  fetcher.FetcherThread - fetching http://blog.sina.com.cn/lm/z/app/ (queue crawl delay=5000ms)
+2016-08-15 22:22:18,749 INFO  fetcher.FetcherThread - fetching http://tags.news.sina.com.cn/%E6%9C%80%E7%82%AB%E6%B0%91%E6%97%8F%E9%A3%8E (queue crawl delay=5000ms)
+2016-08-15 22:22:18,749 INFO  fetcher.FetcherThread - fetching http://wwwimages.adobe.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:18,749 INFO  fetcher.FetcherThread - fetching http://fashion.163.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:18,899 INFO  fetcher.FetcherThread - fetching http://www.foxnews.com/entertainment/slideshow/2016/08/15/better-blonde-or-brunette.html (queue crawl delay=5000ms)
+2016-08-15 22:22:19,268 INFO  fetcher.FetcherThread - fetching http://star.ettoday.net/ (queue crawl delay=5000ms)
+2016-08-15 22:22:19,617 INFO  fetcher.FetcherThread - fetching http://game.ettoday.net/ (queue crawl delay=5000ms)
+2016-08-15 22:22:19,746 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=238, fetchQueues.getQueueCount=196
+2016-08-15 22:22:19,789 WARN  robots.SimpleRobotRulesParser - Problem processing robots.txt for http://wwwimages.adobe.com/
+2016-08-15 22:22:19,789 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /cn/products/creativesuite*
+2016-08-15 22:22:19,789 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /hr/products/creativesuite*
+2016-08-15 22:22:19,789 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /hu/products/creativesuite*
+2016-08-15 22:22:19,789 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /il_en/products/creativesuite*
+2016-08-15 22:22:20,196 INFO  fetcher.FetcherThread - fetching http://api.demandbase.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:20,256 INFO  fetcher.FetcherThread - fetch of http://wwwimages.adobe.com/ failed with: Http code=403, url=http://wwwimages.adobe.com/
+2016-08-15 22:22:20,257 INFO  fetcher.FetcherThread - fetching http://mobile.163.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:20,550 INFO  fetcher.FetcherThread - fetching http://fast.adobe.demdex.net/ (queue crawl delay=5000ms)
+2016-08-15 22:22:20,714 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2016-08-15 22:22:20,714 INFO  fetcher.FetcherThread - fetching http://sports.ettoday.net/ (queue crawl delay=5000ms)
+2016-08-15 22:22:20,746 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=234, fetchQueues.getQueueCount=193
+2016-08-15 22:22:20,775 INFO  fetcher.FetcherThread - fetching http://jingdian.travel.163.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:20,925 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2016-08-15 22:22:20,926 INFO  fetcher.FetcherThread - fetching http://money.163.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:20,970 INFO  fetcher.FetcherThread - fetching http://live.caipiao.163.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:21,065 INFO  fetcher.FetcherThread - fetching http://www.sina-qd.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:21,437 INFO  fetcher.FetcherThread - fetching http://img1.126.net/advertisement/contract/0529.html (queue crawl delay=5000ms)
+2016-08-15 22:22:21,536 INFO  fetcher.FetcherThread - fetching http://auto.sina.com.cn/ (queue crawl delay=5000ms)
+2016-08-15 22:22:21,744 INFO  fetcher.FetcherThread - fetching http://fa.163.com/ext/popularize/163paperRight (queue crawl delay=5000ms)
+2016-08-15 22:22:21,748 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=227, fetchQueues.getQueueCount=189
+2016-08-15 22:22:22,025 INFO  fetcher.FetcherThread - fetching http://foxnews.com/ (queue crawl delay=5000ms)
+2016-08-15 22:22:22,030 INFO  fetcher.FetcherThread - fetching http://history.sina.com.cn/ (queue crawl delay=5000ms)

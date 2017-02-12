@@ -1,0 +1,114 @@
+2016-08-16 09:17:41,042 INFO  crawl.Injector - Injector: starting at 2016-08-16 09:17:41
+2016-08-16 09:17:41,043 INFO  crawl.Injector - Injector: crawlDb: pdfTmp/crawldb
+2016-08-16 09:17:41,043 INFO  crawl.Injector - Injector: urlDir: pdfTmp/urls
+2016-08-16 09:17:41,043 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-08-16 09:17:41,209 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-16 09:17:41,996 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-16 09:17:42,029 ERROR crawl.Injector - Injector: org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/Users/zhangmingke/Documents/workspace/xnutch/pdfTmp/urls
+	at org.apache.hadoop.mapred.FileInputFormat.singleThreadedListStatus(FileInputFormat.java:285)
+	at org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:228)
+	at org.apache.hadoop.mapred.FileInputFormat.getSplits(FileInputFormat.java:304)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeOldSplits(JobSubmitter.java:520)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeSplits(JobSubmitter.java:512)
+	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:394)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1285)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1282)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1282)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:562)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapred.JobClient.submitJobInternal(JobClient.java:557)
+	at org.apache.hadoop.mapred.JobClient.submitJob(JobClient.java:548)
+	at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:833)
+	at org.apache.nutch.crawl.Injector.inject(Injector.java:324)
+	at org.apache.nutch.crawl.Injector.run(Injector.java:381)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.crawl.Injector.main(Injector.java:371)
+
+2016-08-16 09:18:32,401 INFO  crawl.Injector - Injector: starting at 2016-08-16 09:18:32
+2016-08-16 09:18:32,401 INFO  crawl.Injector - Injector: crawlDb: pdfTmp/crawldb
+2016-08-16 09:18:32,401 INFO  crawl.Injector - Injector: urlDir: pdfTmp/urls
+2016-08-16 09:18:32,402 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-08-16 09:18:32,549 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-16 09:18:32,924 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-16 09:18:32,950 ERROR crawl.Injector - Injector: org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/Users/zhangmingke/Documents/workspace/xnutch/pdfTmp/urls
+	at org.apache.hadoop.mapred.FileInputFormat.singleThreadedListStatus(FileInputFormat.java:285)
+	at org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:228)
+	at org.apache.hadoop.mapred.FileInputFormat.getSplits(FileInputFormat.java:304)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeOldSplits(JobSubmitter.java:520)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeSplits(JobSubmitter.java:512)
+	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:394)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1285)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1282)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1282)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:562)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapred.JobClient.submitJobInternal(JobClient.java:557)
+	at org.apache.hadoop.mapred.JobClient.submitJob(JobClient.java:548)
+	at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:833)
+	at org.apache.nutch.crawl.Injector.inject(Injector.java:324)
+	at org.apache.nutch.crawl.Injector.run(Injector.java:381)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.crawl.Injector.main(Injector.java:371)
+
+2016-08-16 09:19:06,508 INFO  crawl.Injector - Injector: starting at 2016-08-16 09:19:06
+2016-08-16 09:19:06,509 INFO  crawl.Injector - Injector: crawlDb: pdfTmp/crawldb
+2016-08-16 09:19:06,509 INFO  crawl.Injector - Injector: urlDir: pdfTmp/urls
+2016-08-16 09:19:06,510 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-08-16 09:19:06,652 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-16 09:19:07,467 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-16 09:19:07,492 ERROR crawl.Injector - Injector: org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/Users/zhangmingke/Documents/workspace/xnutch/pdfTmp/urls
+	at org.apache.hadoop.mapred.FileInputFormat.singleThreadedListStatus(FileInputFormat.java:285)
+	at org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:228)
+	at org.apache.hadoop.mapred.FileInputFormat.getSplits(FileInputFormat.java:304)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeOldSplits(JobSubmitter.java:520)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeSplits(JobSubmitter.java:512)
+	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:394)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1285)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1282)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1282)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:562)
+	at org.apache.hadoop.mapred.JobClient$1.run(JobClient.java:557)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1548)
+	at org.apache.hadoop.mapred.JobClient.submitJobInternal(JobClient.java:557)
+	at org.apache.hadoop.mapred.JobClient.submitJob(JobClient.java:548)
+	at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:833)
+	at org.apache.nutch.crawl.Injector.inject(Injector.java:324)
+	at org.apache.nutch.crawl.Injector.run(Injector.java:381)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.crawl.Injector.main(Injector.java:371)
+
+2016-08-16 09:21:24,922 INFO  crawl.Injector - Injector: starting at 2016-08-16 09:21:24
+2016-08-16 09:21:24,927 INFO  crawl.Injector - Injector: crawlDb: Tmp/crawldb
+2016-08-16 09:21:24,927 INFO  crawl.Injector - Injector: urlDir: Tmp/urls
+2016-08-16 09:21:24,928 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-08-16 09:21:25,231 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-16 09:21:25,744 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-16 09:21:26,081 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1360083125/.staging/job_local1360083125_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-16 09:21:26,085 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1360083125/.staging/job_local1360083125_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-16 09:21:26,264 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1360083125_0001/job_local1360083125_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-16 09:21:26,268 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1360083125_0001/job_local1360083125_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-16 09:21:27,255 INFO  domain.DomainURLFilter - Attribute "file" is defined for plugin urlfilter-domain as domain-urlfilter.txt
+2016-08-16 09:21:27,265 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-08-16 09:21:27,852 INFO  crawl.Injector - Injector: overwrite: false
+2016-08-16 09:21:27,852 INFO  crawl.Injector - Injector: update: false
+2016-08-16 09:21:28,349 INFO  crawl.Injector - Injector: Total number of urls rejected by filters: 15
+2016-08-16 09:21:28,349 INFO  crawl.Injector - Injector: Total number of urls after normalization: 30
+2016-08-16 09:21:28,353 INFO  crawl.Injector - Injector: Total new urls injected: 30
+2016-08-16 09:21:28,354 INFO  crawl.Injector - Injector: finished at 2016-08-16 09:21:28, elapsed: 00:00:03

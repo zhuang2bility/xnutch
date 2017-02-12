@@ -1,0 +1,915 @@
+2016-08-17 13:43:30,959 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 13:44:42,142 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 13:45:50,518 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 13:52:19,989 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 13:54:07,166 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 14:20:55,901 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 19:55:49,315 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-08-17 19:55:49,586 INFO  crawl.CrawlAndIndex - crawl started in: Tmp
+2016-08-17 19:55:49,586 INFO  crawl.CrawlAndIndex - threads = 10
+2016-08-17 19:55:49,586 INFO  crawl.CrawlAndIndex - depth = 1
+2016-08-17 19:55:49,586 INFO  crawl.CrawlAndIndex - topN = 9223372036854775807
+2016-08-17 19:55:49,589 INFO  crawl.CrawlAndIndex - topN = 9223372036854775807
+2016-08-17 19:55:49,589 INFO  crawl.CrawlAndIndex - noindex = false
+2016-08-17 19:55:49,589 INFO  crawl.CrawlAndIndex - hostInjector == true
+2016-08-17 19:55:49,619 INFO  crawl.HostInjector - HostInjector: starting at 2016-08-17 19:55:49
+2016-08-17 19:55:49,627 INFO  crawl.HostInjector - HostInjector: crawlDb: Tmp/crawldb
+2016-08-17 19:55:49,627 INFO  crawl.HostInjector - HostInjector: hostDb: Tmp/hostdb
+2016-08-17 19:55:49,722 INFO  crawl.HostInjector - HostInjector: Converting urls to host entries.
+2016-08-17 19:55:50,277 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:55:50,983 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1587971371/.staging/job_local1587971371_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:55:50,987 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1587971371/.staging/job_local1587971371_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:55:51,190 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1587971371_0001/job_local1587971371_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:55:51,194 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1587971371_0001/job_local1587971371_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:55:51,723 INFO  domain.DomainURLFilter - Attribute "file" is defined for plugin urlfilter-domain as domain-urlfilter.txt
+2016-08-17 19:55:51,735 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-08-17 19:55:52,260 INFO  crawl.HostInjector - Injector: Total number of urls rejected by filters: 0
+2016-08-17 19:55:52,260 INFO  crawl.HostInjector - Injector: Total number of urls scanned: 30
+2016-08-17 19:55:52,266 INFO  crawl.HostInjector - HostInjector: finished at 2016-08-17 19:55:52, elapsed: 00:00:02
+2016-08-17 19:55:53,271 INFO  crawl.HostGenerator - HostGenerator: segment: Tmp/hostSegments/20160817195553
+2016-08-17 19:55:53,284 INFO  crawl.HostGenerator - HostGenerator: starting at 2016-08-17 19:55:53
+2016-08-17 19:55:53,285 INFO  crawl.HostGenerator - HostGenerator: Selecting best-scoring hosts due for resolve.
+2016-08-17 19:55:53,288 INFO  crawl.HostGenerator - HostGenerator: jobtracker is 'local', generating exactly one partition.
+2016-08-17 19:55:53,313 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:55:53,452 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke446256952/.staging/job_local446256952_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:55:53,454 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke446256952/.staging/job_local446256952_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:55:53,624 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local446256952_0002/job_local446256952_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:55:53,625 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local446256952_0002/job_local446256952_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:55:53,718 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-17 19:55:53,719 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-17 19:55:53,719 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-17 19:55:53,767 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-17 19:55:53,767 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-17 19:55:53,768 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-17 19:55:54,637 INFO  crawl.HostGenerator - HostGenerator: finished at 2016-08-17 19:55:54, elapsed: 00:00:01
+2016-08-17 19:55:54,637 INFO  crawl.HostFetcher - HostFetcher: starting at 2016-08-17 19:55:54
+2016-08-17 19:55:54,638 INFO  crawl.HostFetcher - HostFetcher: segment: Tmp/hostSegments/20160817195553
+2016-08-17 19:55:54,663 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:55:54,752 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1070164288/.staging/job_local1070164288_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:55:54,753 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1070164288/.staging/job_local1070164288_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:55:54,883 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1070164288_0003/job_local1070164288_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:55:54,889 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1070164288_0003/job_local1070164288_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:55:55,049 INFO  crawl.HostFetcher - Fetcher: time-out divisor: 2
+2016-08-17 19:55:55,084 INFO  crawl.HostFetcher - Resolving www.yznews.com.cn with dns server 208.67.220.123
+2016-08-17 19:55:55,084 INFO  crawl.HostFetcher - Resolving www.worlduc.com with dns server 208.67.222.123
+2016-08-17 19:55:55,084 INFO  crawl.HostFetcher - Resolving www.qingdaonews.com with dns server 123.125.81.6
+2016-08-17 19:55:55,084 INFO  crawl.HostFetcher - Resolving www.offshoretestingservices.com with dns server 140.207.198.6
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.ctbcbank.com with dns server 210.2.1.1
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving zzwb.zynews.com with dns server 114.114.114.114
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.ettoday.net with dns server 1.2.4.8
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.globaltimes.cn with dns server 210.2.2.2
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.guinnessworldrecords.com with dns server 208.67.220.220
+2016-08-17 19:55:55,086 INFO  crawl.HostFetcher - Resolving www.cnzjmsa.gov.cn with dns server 198.153.192.1
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.guokr.com with dns server 211.161.159.66
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.moe.edu.cn with dns server 8.8.4.4
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.nbcg.gov.cn with dns server 114.114.115.115
+2016-08-17 19:55:55,085 INFO  crawl.HostFetcher - Resolving www.isme.tw with dns server 8.8.8.8
+2016-08-17 19:55:55,087 INFO  crawl.HostFetcher - Resolving www.cninfo.com.cn with dns server 208.67.222.222
+2016-08-17 19:55:55,091 INFO  crawl.HostFetcher - Resolving www.citytalk.tw with dns server 210.2.4.8
+2016-08-17 19:55:55,092 INFO  crawl.HostFetcher - Resolving www.chinatimes.com with dns server 211.161.158.10
+2016-08-17 19:55:55,092 INFO  crawl.HostFetcher - Resolving www.chinadaily.com.cn with dns server 198.153.194.1
+2016-08-17 19:55:55,341 INFO  crawl.HostFetcher - fetch of www.guokr.com failed with: java.net.PortUnreachableException
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method)
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:549)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:130)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:55:55,349 INFO  crawl.HostFetcher - Resolving www.aol.com with dns server 211.161.159.66
+2016-08-17 19:55:55,367 INFO  crawl.HostFetcher - Resolving www.adobe.com with dns server 123.125.81.6
+2016-08-17 19:55:55,371 INFO  crawl.HostFetcher - Resolving news.sina.com.cn with dns server 114.114.115.115
+2016-08-17 19:55:55,374 INFO  crawl.HostFetcher - fetch of www.aol.com failed with: java.net.PortUnreachableException
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method)
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:549)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:130)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:55:55,374 INFO  crawl.HostFetcher - Resolving my.gl.fudan.edu.cn with dns server 211.161.159.66
+2016-08-17 19:55:55,393 INFO  crawl.HostFetcher - Resolving movie.douban.com with dns server 8.8.4.4
+2016-08-17 19:55:55,396 INFO  crawl.HostFetcher - fetch of my.gl.fudan.edu.cn failed with: java.net.PortUnreachableException
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method)
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:549)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:130)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:55:55,397 INFO  crawl.HostFetcher - Resolving mail.gzvtc.cn with dns server 211.161.159.66
+2016-08-17 19:55:55,409 INFO  crawl.HostFetcher - Resolving jwc.zjsru.edu.cn with dns server 123.125.81.6
+2016-08-17 19:55:55,417 INFO  crawl.HostFetcher - Resolving images.ruc.edu.cn with dns server 114.114.115.115
+2016-08-17 19:55:55,419 INFO  crawl.HostFetcher - fetch of mail.gzvtc.cn failed with: java.net.PortUnreachableException
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method)
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:549)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:130)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:55:55,419 INFO  crawl.HostFetcher - Resolving icook.tw with dns server 211.161.159.66
+2016-08-17 19:55:55,430 INFO  crawl.HostFetcher - Resolving file.mw1950.com with dns server 198.153.194.1
+2016-08-17 19:55:55,440 INFO  crawl.HostFetcher - fetch of icook.tw failed with: java.net.PortUnreachableException
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method)
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:549)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:130)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:55:55,441 INFO  crawl.HostFetcher - Resolving ent.163.com with dns server 211.161.159.66
+2016-08-17 19:55:55,452 INFO  crawl.HostFetcher - Resolving doc.askci.com with dns server 1.2.4.8
+2016-08-17 19:55:55,461 INFO  crawl.HostFetcher - fetch of ent.163.com failed with: java.net.PortUnreachableException
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method)
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:549)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:130)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:55:55,462 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,462 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=17
+2016-08-17 19:55:55,479 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,480 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=16
+2016-08-17 19:55:55,483 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,483 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=15
+2016-08-17 19:55:55,546 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,546 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=14
+2016-08-17 19:55:55,548 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,548 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=13
+2016-08-17 19:55:55,609 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,609 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=12
+2016-08-17 19:55:55,632 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,632 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=11
+2016-08-17 19:55:55,686 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,686 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=10
+2016-08-17 19:55:55,713 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,713 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=9
+2016-08-17 19:55:55,769 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,769 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=8
+2016-08-17 19:55:55,816 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,816 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=7
+2016-08-17 19:55:55,841 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:55,841 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=6
+2016-08-17 19:55:56,034 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:56,034 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=5
+2016-08-17 19:55:56,074 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:55:56,074 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=4
+2016-08-17 19:56:05,453 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:56:05,454 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=3
+2016-08-17 19:56:25,176 INFO  crawl.HostFetcher - fetch of www.ctbcbank.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:56:25,176 INFO  crawl.HostFetcher - fetch of www.globaltimes.cn failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:56:25,176 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:56:25,176 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:56:25,176 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=2
+2016-08-17 19:56:25,176 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=1
+2016-08-17 19:56:25,195 INFO  crawl.HostFetcher - fetch of www.chinatimes.com failed with: java.net.SocketTimeoutException
+	at org.xbill.DNS.Client.blockUntil(Client.java:43)
+	at org.xbill.DNS.UDPClient.recv(UDPClient.java:124)
+	at org.xbill.DNS.UDPClient.sendrecv(UDPClient.java:150)
+	at org.xbill.DNS.SimpleResolver.send(SimpleResolver.java:257)
+	at org.apache.nutch.crawl.NameResolver.resolve(NameResolver.java:83)
+	at org.apache.nutch.crawl.HostFetcher$ResolverThread.run(HostFetcher.java:114)
+
+2016-08-17 19:56:25,195 INFO  crawl.HostFetcher - Thread ResolverThread has no more work available
+2016-08-17 19:56:25,195 INFO  crawl.HostFetcher - -finishing thread ResolverThread, activeThreads=0
+2016-08-17 19:56:26,190 INFO  crawl.HostFetcher - -activeThreads=0
+2016-08-17 19:56:27,040 INFO  crawl.HostFetcher - HostFetcher: finished at 2016-08-17 19:56:27, elapsed: 00:00:32
+2016-08-17 19:56:27,051 INFO  crawl.HostDb - HostDb update: starting at 2016-08-17 19:56:27
+2016-08-17 19:56:27,051 INFO  crawl.HostDb - HostDb update: db: Tmp/hostdb
+2016-08-17 19:56:27,051 INFO  crawl.HostDb - HostDb update: segments: [Tmp/hostSegments/20160817195553]
+2016-08-17 19:56:27,051 INFO  crawl.HostDb - HostDb update: additions allowed: true
+2016-08-17 19:56:27,051 INFO  crawl.HostDb - HostDb update: 404 purging: false
+2016-08-17 19:56:27,051 INFO  crawl.HostDb - HostDb update: Merging segment data into db.
+2016-08-17 19:56:27,066 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:56:27,176 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke504559565/.staging/job_local504559565_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:27,178 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke504559565/.staging/job_local504559565_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:27,406 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local504559565_0004/job_local504559565_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:27,408 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local504559565_0004/job_local504559565_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:27,847 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-17 19:56:27,847 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-17 19:56:27,848 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-17 19:56:27,876 WARN  crawl.CrawlDbReducer - Unknown status, key: doc.askci.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,887 WARN  crawl.CrawlDbReducer - Unknown status, key: ent.163.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,887 WARN  crawl.CrawlDbReducer - Unknown status, key: file.mw1950.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,888 WARN  crawl.CrawlDbReducer - Unknown status, key: icook.tw, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,888 WARN  crawl.CrawlDbReducer - Unknown status, key: images.ruc.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,889 WARN  crawl.CrawlDbReducer - Unknown status, key: jwc.zjsru.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,889 WARN  crawl.CrawlDbReducer - Unknown status, key: mail.gzvtc.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,889 WARN  crawl.CrawlDbReducer - Unknown status, key: movie.douban.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,890 WARN  crawl.CrawlDbReducer - Unknown status, key: my.gl.fudan.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,890 WARN  crawl.CrawlDbReducer - Unknown status, key: news.sina.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,890 WARN  crawl.CrawlDbReducer - Unknown status, key: www.adobe.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,891 WARN  crawl.CrawlDbReducer - Unknown status, key: www.aol.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,891 WARN  crawl.CrawlDbReducer - Unknown status, key: www.chinadaily.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,891 WARN  crawl.CrawlDbReducer - Unknown status, key: www.chinatimes.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,892 WARN  crawl.CrawlDbReducer - Unknown status, key: www.citytalk.tw, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,892 WARN  crawl.CrawlDbReducer - Unknown status, key: www.cninfo.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,892 WARN  crawl.CrawlDbReducer - Unknown status, key: www.cnzjmsa.gov.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,893 WARN  crawl.CrawlDbReducer - Unknown status, key: www.ctbcbank.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,893 WARN  crawl.CrawlDbReducer - Unknown status, key: www.ettoday.net, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,894 WARN  crawl.CrawlDbReducer - Unknown status, key: www.globaltimes.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,894 WARN  crawl.CrawlDbReducer - Unknown status, key: www.guinnessworldrecords.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,894 WARN  crawl.CrawlDbReducer - Unknown status, key: www.guokr.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,895 WARN  crawl.CrawlDbReducer - Unknown status, key: www.isme.tw, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,895 WARN  crawl.CrawlDbReducer - Unknown status, key: www.moe.edu.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,895 WARN  crawl.CrawlDbReducer - Unknown status, key: www.nbcg.gov.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,896 WARN  crawl.CrawlDbReducer - Unknown status, key: www.offshoretestingservices.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,896 WARN  crawl.CrawlDbReducer - Unknown status, key: www.qingdaonews.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,896 WARN  crawl.CrawlDbReducer - Unknown status, key: www.worlduc.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,897 WARN  crawl.CrawlDbReducer - Unknown status, key: www.yznews.com.cn, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:27,899 WARN  crawl.CrawlDbReducer - Unknown status, key: zzwb.zynews.com, datum: Version: 7
+Status: 66 (injected)
+Fetch time: Wed Aug 17 19:55:49 CST 2016
+Modified time: Thu Jan 01 08:00:00 CST 1970
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 
+2016-08-17 19:56:28,418 INFO  crawl.HostDb - HostDb update: finished at 2016-08-17 19:56:28, elapsed: 00:00:01
+2016-08-17 19:56:28,427 INFO  crawl.NewGenerator - Generator: starting at 2016-08-17 19:56:28
+2016-08-17 19:56:28,427 INFO  crawl.NewGenerator - Generator: Preselecting urls due for fetch.
+2016-08-17 19:56:28,427 INFO  crawl.NewGenerator - Generator: filtering: true
+2016-08-17 19:56:28,427 INFO  crawl.NewGenerator - Generator: normalizing: true
+2016-08-17 19:56:28,443 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:56:28,563 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke315971119/.staging/job_local315971119_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:28,565 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke315971119/.staging/job_local315971119_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:28,788 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local315971119_0005/job_local315971119_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:28,790 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local315971119_0005/job_local315971119_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:28,850 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-17 19:56:28,850 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-17 19:56:28,850 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-17 19:56:29,798 INFO  crawl.NewGenerator - Generator: Retrieving IP from hostdb.
+2016-08-17 19:56:29,815 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:56:29,887 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke127609819/.staging/job_local127609819_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:29,887 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke127609819/.staging/job_local127609819_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:29,941 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local127609819_0006/job_local127609819_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:29,942 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local127609819_0006/job_local127609819_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:30,950 INFO  crawl.NewGenerator - Generator: Selecting best urls due for fetch.
+2016-08-17 19:56:30,952 INFO  crawl.NewGenerator - Generator: jobtracker is 'local', generating exactly one partition.
+2016-08-17 19:56:30,990 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:56:31,127 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke249755664/.staging/job_local249755664_0007/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:31,128 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke249755664/.staging/job_local249755664_0007/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:31,209 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local249755664_0007/job_local249755664_0007.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:31,211 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local249755664_0007/job_local249755664_0007.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:31,248 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-17 19:56:31,248 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-17 19:56:31,248 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-17 19:56:31,275 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-17 19:56:31,275 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-17 19:56:31,275 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-17 19:56:31,276 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-08-17 19:56:32,219 INFO  crawl.NewGenerator - Generator: Partitioning selected urls for politeness.
+2016-08-17 19:56:33,224 INFO  crawl.NewGenerator - Generator: segment: Tmp/segments/20160817195633
+2016-08-17 19:56:33,250 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:56:33,394 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke2020815804/.staging/job_local2020815804_0008/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:33,396 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke2020815804/.staging/job_local2020815804_0008/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:33,489 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local2020815804_0008/job_local2020815804_0008.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:33,490 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local2020815804_0008/job_local2020815804_0008.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:34,512 INFO  crawl.NewGenerator - Generator: finished at 2016-08-17 19:56:34, elapsed: 00:00:06
+2016-08-17 19:56:34,514 INFO  fetcher.Fetcher - Fetcher: starting at 2016-08-17 19:56:34
+2016-08-17 19:56:34,516 INFO  fetcher.Fetcher - Fetcher: segment: Tmp/segments/20160817195633
+2016-08-17 19:56:34,550 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:56:34,772 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1760268904/.staging/job_local1760268904_0009/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:34,773 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1760268904/.staging/job_local1760268904_0009/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:34,980 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1760268904_0009/job_local1760268904_0009.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:34,984 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1760268904_0009/job_local1760268904_0009.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:35,047 INFO  fetcher.FetchItemQueues - Using queue mode : byHost
+2016-08-17 19:56:35,047 INFO  fetcher.Fetcher - Fetcher: threads: 10
+2016-08-17 19:56:35,047 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2016-08-17 19:56:35,057 INFO  fetcher.QueueFeeder - QueueFeeder finished: total 20 records + hit by time limit :0
+2016-08-17 19:56:35,076 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,076 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,077 INFO  fetcher.FetcherThread - fetching http://zzwb.zynews.com/page/2/2014-11/17/A16/20141117A16_pdf.PDF (queue crawl delay=5000ms)
+2016-08-17 19:56:35,077 INFO  fetcher.FetcherThread - fetching http://www.nbcg.gov.cn/office/nbcei_editor/uploadfile/08-10-27-10-33-431225074823.xls (queue crawl delay=5000ms)
+2016-08-17 19:56:35,077 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,078 INFO  fetcher.FetcherThread - fetching http://images.ruc.edu.cn/other/2009-05-19/1242719307864.xls (queue crawl delay=5000ms)
+2016-08-17 19:56:35,078 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,079 INFO  fetcher.FetcherThread - fetching http://www.qingdaonews.com/images/site1/20060406/020403060845126132612.doc (queue crawl delay=5000ms)
+2016-08-17 19:56:35,079 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,080 INFO  fetcher.FetcherThread - fetching http://www.guinnessworldrecords.com/news/2016/6/japanese-baseball-star-ichiro-suzuki-sets-base-hit-world-record-433462 (queue crawl delay=5000ms)
+2016-08-17 19:56:35,080 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,081 INFO  fetcher.FetcherThread - fetching http://www.moe.edu.cn/ewebeditor/uploadfile/20101019095844154.doc (queue crawl delay=5000ms)
+2016-08-17 19:56:35,081 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,082 INFO  fetcher.FetcherThread - fetching http://www.chinadaily.com.cn/culture/2016-06/30/content_25912025.htm (queue crawl delay=5000ms)
+2016-08-17 19:56:35,082 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,082 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,083 INFO  fetcher.FetcherThread - fetching http://doc.askci.com/2014/04/089240293728.doc (queue crawl delay=5000ms)
+2016-08-17 19:56:35,083 INFO  fetcher.FetcherThread - fetching http://www.yznews.com.cn/yzwb/page/2014-09/12/C02/20140912C02_pdf.pdf (queue crawl delay=5000ms)
+2016-08-17 19:56:35,083 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-08-17 19:56:35,084 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
+2016-08-17 19:56:35,084 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2016-08-17 19:56:35,084 INFO  fetcher.FetcherThread - fetching http://news.sina.com.cn/o/2016-06-30/doc-ifxtrwtu9491713.shtml (queue crawl delay=5000ms)
+2016-08-17 19:56:35,091 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,091 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,092 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,092 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,092 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,092 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,092 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,092 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,092 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,092 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,092 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,092 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,092 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,093 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,093 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,093 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,093 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,093 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,093 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,093 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,093 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,093 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,093 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,093 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,093 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,093 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,094 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,094 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,094 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,094 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,094 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,094 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,094 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,094 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,094 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,094 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,094 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,094 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,094 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,094 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,094 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,094 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,094 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,094 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,095 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,095 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,095 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,095 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,095 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,095 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,095 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,095 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,095 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,095 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,095 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,095 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,095 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,095 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:35,096 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:35,096 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:35,096 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:35,096 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:35,096 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:35,096 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:35,096 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:35,096 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:35,096 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:36,100 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=10, fetchQueues.getQueueCount=20
+2016-08-17 19:56:36,472 INFO  fetcher.FetcherThread - fetching http://www.cnzjmsa.gov.cn/hsqk/201206/201303/W020130310464124798846.doc (queue crawl delay=5000ms)
+2016-08-17 19:56:36,474 INFO  fetcher.FetcherThread - fetching http://www.cninfo.com.cn/finalpage/2014-08-29/1200183904.PDF (queue crawl delay=5000ms)
+2016-08-17 19:56:36,477 INFO  fetcher.FetcherThread - fetching http://www.ettoday.net/news/20160629/725307.htm (queue crawl delay=5000ms)
+2016-08-17 19:56:36,478 INFO  fetcher.FetcherThread - fetching http://www.offshoretestingservices.com/GTL-Corporate-Presentation.ppt (queue crawl delay=5000ms)
+2016-08-17 19:56:36,485 INFO  fetcher.FetcherThread - fetch of http://www.nbcg.gov.cn/office/nbcei_editor/uploadfile/08-10-27-10-33-431225074823.xls failed with: Http code=503, url=http://www.nbcg.gov.cn/office/nbcei_editor/uploadfile/08-10-27-10-33-431225074823.xls
+2016-08-17 19:56:36,485 INFO  fetcher.FetcherThread - fetching http://www.isme.tw/ (queue crawl delay=5000ms)
+2016-08-17 19:56:37,274 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=5, fetchQueues.getQueueCount=15
+2016-08-17 19:56:37,340 INFO  fetcher.FetcherThread - fetching https://movie.douban.com/subject/6874741/ (queue crawl delay=5000ms)
+2016-08-17 19:56:37,340 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
+2016-08-17 19:56:37,340 INFO  http.Http - http.proxy.host = null
+2016-08-17 19:56:37,340 INFO  http.Http - http.proxy.port = 8080
+2016-08-17 19:56:37,340 INFO  http.Http - http.proxy.exception.list = false
+2016-08-17 19:56:37,340 INFO  http.Http - http.timeout = 10000
+2016-08-17 19:56:37,340 INFO  http.Http - http.content.limit = 1000000
+2016-08-17 19:56:37,340 INFO  http.Http - http.agent = kbot/Nutch-1.11
+2016-08-17 19:56:37,340 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-08-17 19:56:37,340 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-08-17 19:56:37,381 INFO  fetcher.FetcherThread - fetching http://www.adobe.com/tw/ (queue crawl delay=5000ms)
+2016-08-17 19:56:38,080 INFO  fetcher.FetcherThread - fetching http://www.worlduc.com/FileSystem/18/2847/671212/2d49152d129d499883bbc834028d6f35.ppt (queue crawl delay=5000ms)
+2016-08-17 19:56:38,161 INFO  fetcher.FetcherThread - fetching http://www.citytalk.tw/ (queue crawl delay=5000ms)
+2016-08-17 19:56:38,270 INFO  fetcher.FetcherThread - fetching http://file.mw1950.com/uploadfile/2012/0522/20120522105941706.pdf (queue crawl delay=5000ms)
+2016-08-17 19:56:38,278 INFO  fetcher.Fetcher - -activeThreads=10, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=10
+2016-08-17 19:56:38,278 WARN  robots.SimpleRobotRulesParser - Problem processing robots.txt for http://www.adobe.com/tw/
+2016-08-17 19:56:38,278 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /cn/products/creativesuite*
+2016-08-17 19:56:38,279 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /hr/products/creativesuite*
+2016-08-17 19:56:38,279 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /hu/products/creativesuite*
+2016-08-17 19:56:38,279 WARN  robots.SimpleRobotRulesParser - 	Unknown line in robots.txt file (size 13713): Noindex: /il_en/products/creativesuite*
+2016-08-17 19:56:38,624 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:38,624 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=9
+2016-08-17 19:56:38,710 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:38,710 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=8
+2016-08-17 19:56:38,766 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:38,766 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=7
+2016-08-17 19:56:38,825 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:38,825 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=6
+2016-08-17 19:56:39,279 INFO  fetcher.Fetcher - -activeThreads=6, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=6
+2016-08-17 19:56:39,279 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:39,279 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=5
+2016-08-17 19:56:39,335 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:39,335 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=4
+2016-08-17 19:56:40,282 INFO  fetcher.Fetcher - -activeThreads=4, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=4
+2016-08-17 19:56:41,284 INFO  fetcher.Fetcher - -activeThreads=4, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=4
+2016-08-17 19:56:41,297 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:41,297 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=3
+2016-08-17 19:56:41,298 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:41,298 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=2
+2016-08-17 19:56:41,407 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:41,407 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2016-08-17 19:56:42,285 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:43,291 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:44,295 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:45,300 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:46,305 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:47,280 INFO  api.HttpRobotRulesParser - Couldn't get robots.txt for http://www.cnzjmsa.gov.cn/hsqk/201206/201303/W020130310464124798846.doc: java.net.SocketTimeoutException: connect timed out
+2016-08-17 19:56:47,309 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:48,310 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:49,313 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:50,314 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:51,316 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:52,317 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:53,321 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:54,324 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:55,324 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:56,330 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-08-17 19:56:57,286 ERROR http.Http - Failed to get protocol output
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.nutch.protocol.http.HttpResponse.<init>(HttpResponse.java:148)
+	at org.apache.nutch.protocol.http.Http.getResponse(Http.java:70)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:261)
+	at org.apache.nutch.fetcher.FetcherThread.run(FetcherThread.java:290)
+2016-08-17 19:56:57,290 INFO  fetcher.FetcherThread - fetch of http://www.cnzjmsa.gov.cn/hsqk/201206/201303/W020130310464124798846.doc failed with: java.net.SocketTimeoutException: connect timed out
+2016-08-17 19:56:57,292 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-08-17 19:56:57,292 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=0
+2016-08-17 19:56:57,330 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=0
+2016-08-17 19:56:57,330 INFO  fetcher.Fetcher - -activeThreads=0
+2016-08-17 19:56:59,355 INFO  fetcher.Fetcher - Fetcher: finished at 2016-08-17 19:56:59, elapsed: 00:00:24
+2016-08-17 19:56:59,357 INFO  parse.ParseSegment - ParseSegment: starting at 2016-08-17 19:56:59
+2016-08-17 19:56:59,358 INFO  parse.ParseSegment - ParseSegment: segment: Tmp/segments/20160817195633
+2016-08-17 19:56:59,380 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:56:59,491 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1123693971/.staging/job_local1123693971_0010/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:59,492 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1123693971/.staging/job_local1123693971_0010/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:59,611 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1123693971_0010/job_local1123693971_0010.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:56:59,612 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1123693971_0010/job_local1123693971_0010.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:56:59,699 INFO  parse.ParserFactory - The parsing plugins: [org.apache.nutch.parse.tika.TikaParser] are enabled via the plugin.includes system property, and all claim to support the content type application/msword, but they are not mapped to it  in the parse-plugins.xml file
+2016-08-17 19:57:01,022 INFO  util.Langdetect - load again
+
+2016-08-17 19:57:02,475 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:02,531 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-08-17 19:57:02,538 INFO  parse.ParseSegment - Parsed (20ms):http://doc.askci.com/2014/04/089240293728.doc
+2016-08-17 19:57:02,544 INFO  parse.ParserFactory - The parsing plugins: [org.apache.nutch.parse.tika.TikaParser] are enabled via the plugin.includes system property, and all claim to support the content type application/pdf, but they are not mapped to it  in the parse-plugins.xml file
+2016-08-17 19:57:10,071 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:10,079 INFO  parse.ParseSegment - Parsed (2ms):http://file.mw1950.com/uploadfile/2012/0522/20120522105941706.pdf
+2016-08-17 19:57:10,088 INFO  parse.ParseSegment - http://images.ruc.edu.cn/other/2009-05-19/1242719307864.xls skipped. Content of size 1010688 was truncated to 1000000
+2016-08-17 19:57:10,599 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:10,635 INFO  parse.ParseSegment - Parsed (0ms):http://news.sina.com.cn/o/2016-06-30/doc-ifxtrwtu9491713.shtml
+2016-08-17 19:57:10,749 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:10,754 INFO  parse.ParseSegment - Parsed (1ms):http://www.adobe.com/tw/
+2016-08-17 19:57:10,903 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:10,906 INFO  parse.ParseSegment - Parsed (0ms):http://www.chinadaily.com.cn/culture/2016-06/30/content_25912025.htm
+2016-08-17 19:57:11,112 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:11,117 INFO  parse.ParseSegment - Parsed (2ms):http://www.citytalk.tw/
+2016-08-17 19:57:11,125 INFO  parse.ParseSegment - http://www.cninfo.com.cn/finalpage/2014-08-29/1200183904.PDF skipped. Content of size 1040257 was truncated to 1000000
+2016-08-17 19:57:11,322 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:11,341 INFO  parse.ParseSegment - Parsed (1ms):http://www.ettoday.net/news/20160629/725307.htm
+2016-08-17 19:57:11,355 INFO  parse.ParseSegment - Parsed (0ms):http://www.guinnessworldrecords.com/news/2016/6/japanese-baseball-star-ichiro-suzuki-sets-base-hit-world-record-433462
+2016-08-17 19:57:11,494 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:11,498 INFO  parse.ParseSegment - Parsed (1ms):http://www.isme.tw/
+2016-08-17 19:57:11,502 INFO  parse.ParseSegment - http://www.moe.edu.cn/ewebeditor/uploadfile/20101019095844154.doc skipped. Content of size 1218048 was truncated to 1000000
+2016-08-17 19:57:11,506 INFO  parse.ParseSegment - http://www.offshoretestingservices.com/GTL-Corporate-Presentation.ppt skipped. Content of size 10076160 was truncated to 1000000
+2016-08-17 19:57:11,920 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:11,924 INFO  parse.ParseSegment - Parsed (1ms):http://www.qingdaonews.com/images/site1/20060406/020403060845126132612.doc
+2016-08-17 19:57:11,931 INFO  parse.ParseSegment - http://www.worlduc.com/FileSystem/18/2847/671212/2d49152d129d499883bbc834028d6f35.ppt skipped. Content of size 2694656 was truncated to 1000000
+2016-08-17 19:57:12,418 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:12,453 INFO  parse.ParseSegment - Parsed (2ms):http://www.yznews.com.cn/yzwb/page/2014-09/12/C02/20140912C02_pdf.pdf
+2016-08-17 19:57:12,459 INFO  parse.ParseSegment - http://zzwb.zynews.com/page/2/2014-11/17/A16/20141117A16_pdf.PDF skipped. Content of size 4029219 was truncated to 1000000
+2016-08-17 19:57:12,576 INFO  util.Langdetect - load zmk
+2016-08-17 19:57:12,594 INFO  parse.ParseSegment - Parsed (1ms):https://movie.douban.com/subject/6874741/
+2016-08-17 19:57:13,144 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-08-17 19:57:14,664 INFO  parse.ParseSegment - ParseSegment: finished at 2016-08-17 19:57:14, elapsed: 00:00:15
+2016-08-17 19:57:14,674 INFO  crawl.CrawlDb - CrawlDb update: starting at 2016-08-17 19:57:14
+2016-08-17 19:57:14,674 INFO  crawl.CrawlDb - CrawlDb update: db: Tmp/crawldb
+2016-08-17 19:57:14,674 INFO  crawl.CrawlDb - CrawlDb update: segments: [Tmp/segments/20160817195633]
+2016-08-17 19:57:14,675 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2016-08-17 19:57:14,675 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2016-08-17 19:57:14,675 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2016-08-17 19:57:14,675 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
+2016-08-17 19:57:14,675 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2016-08-17 19:57:14,691 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:57:14,800 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1021406781/.staging/job_local1021406781_0011/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:57:14,801 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke1021406781/.staging/job_local1021406781_0011/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:57:14,890 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1021406781_0011/job_local1021406781_0011.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:57:14,895 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local1021406781_0011/job_local1021406781_0011.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:57:14,922 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-08-17 19:57:15,485 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-08-17 19:57:15,587 INFO  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2016-08-17 19:57:15,614 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-08-17 19:57:15,614 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-08-17 19:57:15,614 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-08-17 19:57:15,903 INFO  crawl.CrawlDb - CrawlDb update: finished at 2016-08-17 19:57:15, elapsed: 00:00:01
+2016-08-17 19:57:15,906 INFO  segment.SegmentChecker - Segment dir is complete: file:/Users/zhangmingke/Documents/workspace/xnutch/Tmp/segments/20160817195633.
+2016-08-17 19:57:15,919 INFO  crawl.LinkDb - LinkDb: starting at 2016-08-17 19:57:15
+2016-08-17 19:57:15,919 INFO  crawl.LinkDb - LinkDb: linkdb: Tmp/linkdb
+2016-08-17 19:57:15,919 INFO  crawl.LinkDb - LinkDb: URL normalize: true
+2016-08-17 19:57:15,919 INFO  crawl.LinkDb - LinkDb: URL filter: true
+2016-08-17 19:57:15,919 INFO  crawl.LinkDb - LinkDb: internal links will be ignored.
+2016-08-17 19:57:15,919 INFO  crawl.LinkDb - LinkDb: adding segment: file:/Users/zhangmingke/Documents/workspace/xnutch/Tmp/segments/20160817195633
+2016-08-17 19:57:15,936 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:57:16,126 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke2043990941/.staging/job_local2043990941_0012/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:57:16,128 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke2043990941/.staging/job_local2043990941_0012/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:57:16,445 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local2043990941_0012/job_local2043990941_0012.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:57:16,447 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local2043990941_0012/job_local2043990941_0012.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:57:16,529 INFO  regex.RegexURLNormalizer - can't find rules for scope 'linkdb', using default
+2016-08-17 19:57:17,457 INFO  crawl.LinkDb - LinkDb: finished at 2016-08-17 19:57:17, elapsed: 00:00:01
+2016-08-17 19:57:17,462 INFO  indexer.IndexingJob - Indexer: starting at 2016-08-17 19:57:17
+2016-08-17 19:57:17,464 INFO  indexer.IndexingJob - Indexer: deleting gone documents: false
+2016-08-17 19:57:17,464 INFO  indexer.IndexingJob - Indexer: URL filtering: false
+2016-08-17 19:57:17,464 INFO  indexer.IndexingJob - Indexer: URL normalizing: false
+2016-08-17 19:57:17,466 INFO  indexer.IndexerMapReduce - IndexerMapReduce: crawldb: Tmp/crawldb
+2016-08-17 19:57:17,466 INFO  indexer.IndexerMapReduce - IndexerMapReduce: linkdb: Tmp/linkdb
+2016-08-17 19:57:17,466 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: file:/Users/zhangmingke/Documents/workspace/xnutch/Tmp/segments/20160817195633
+2016-08-17 19:57:17,467 INFO  indexer.IndexingJob - LUCENE-INDEX
+2016-08-17 19:57:17,482 WARN  mapreduce.JobSubmitter - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-08-17 19:57:17,618 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke3225736/.staging/job_local3225736_0013/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:57:17,619 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/staging/zhangmingke3225736/.staging/job_local3225736_0013/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:57:17,788 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local3225736_0013/job_local3225736_0013.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-08-17 19:57:17,789 WARN  conf.Configuration - file:/tmp/hadoop-zhangmingke/mapred/local/localRunner/zhangmingke/job_local3225736_0013/job_local3225736_0013.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-08-17 19:57:17,824 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2016-08-17 19:57:18,324 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.lucene.LuceneWriter
+2016-08-17 19:57:19,128 INFO  zhcn.SimpleChineseAnalyzer - 简体分词器
+2016-08-17 19:57:20,017 INFO  zhcn.SimpleChineseAnalyzer - 简体分词器
+2016-08-17 19:57:20,368 INFO  zhcn.SimpleChineseAnalyzer - 简体分词器
+2016-08-17 19:57:20,436 INFO  analysis.DefaultAnalyzer - 标准分词器
+2016-08-17 19:57:20,559 INFO  lucene.LuceneWriter - The Number Of DeleteDoc is : 0
+2016-08-17 19:57:21,164 WARN  mapred.LocalJobRunner - job_local3225736_0013
+java.lang.Exception: java.lang.AbstractMethodError
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.AbstractMethodError
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:144)
+	at org.apache.nutch.analysis.zhtw.TraditionalChineseAnalyzer.createComponents(TraditionalChineseAnalyzer.java:44)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:182)
+	at org.apache.lucene.document.Field.tokenStream(Field.java:554)
+	at org.apache.lucene.index.DefaultIndexingChain$PerField.invert(DefaultIndexingChain.java:611)
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:359)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:318)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:239)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:454)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1511)
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1246)
+	at org.apache.nutch.indexwriter.lucene.LuceneWriter.write(LuceneWriter.java:355)
+	at org.apache.nutch.indexer.IndexWriters.write(IndexWriters.java:85)
+	at org.apache.nutch.indexer.IndexerOutputFormat$1.write(IndexerOutputFormat.java:50)
+	at org.apache.nutch.indexer.IndexerOutputFormat$1.write(IndexerOutputFormat.java:41)
+	at org.apache.hadoop.mapred.ReduceTask$OldTrackingRecordWriter.write(ReduceTask.java:493)
+	at org.apache.hadoop.mapred.ReduceTask$3.collect(ReduceTask.java:422)
+	at org.apache.nutch.indexer.IndexerMapReduce.reduce(IndexerMapReduce.java:357)
+	at org.apache.nutch.indexer.IndexerMapReduce.reduce(IndexerMapReduce.java:56)
+	at org.apache.hadoop.mapred.ReduceTask.runOldReducer(ReduceTask.java:444)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:392)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-17 22:54:23,812 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 22:55:47,512 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 22:55:56,653 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 22:59:37,818 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 23:07:16,093 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 23:09:38,459 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 23:30:58,148 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 23:34:00,847 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
+2016-08-17 23:59:12,741 INFO  zhtw.TraditionalChineseAnalyzer - 繁体分词器
